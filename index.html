@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gift.cool · Recherche IA</title>
+  <meta name="description" content="POC : recherche sémantique d'idées cadeaux par IA exécutée dans le navigateur (transformers.js).">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%236C3BF5'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'>g</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="https://gift.cool/" target="_blank" rel="noopener">
+        <img src="https://gift.cool/wp-content/uploads/2025/12/logo.png" alt="gift.cool" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'brand__txt',textContent:'gift.cool'}))">
+      </a>
+      <nav class="nav">
+        <a href="https://gift.cool/comment-ca-marche/" target="_blank" rel="noopener">Comment ça marche</a>
+        <a href="https://gift.cool/" target="_blank" rel="noopener">Offrir</a>
+        <a href="#sous-le-capot">Sous le capot</a>
+        <a href="#benchmark">Le match</a>
+      </nav>
+      <span class="poc-badge">POC · Recherche IA</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true"><div class="hero__blob hero__blob--1"></div><div class="hero__blob hero__blob--2"></div></div>
+    <div class="wrap hero__inner">
+      <p class="eyebrow">Nouveau · idées cadeaux par l'IA</p>
+      <h1>Décrivez la personne.<br><span>On trouve ses enseignes.</span></h1>
+      <p class="hero__sub">Écrivez comme vous parlez : l'IA comprend l'intention et propose la carte passion et les enseignes Gift.cool qui lui feront plaisir à coup sûr.</p>
+
+      <form class="search" id="search-form" autocomplete="off">
+        <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.2-4.2"/></svg>
+        <input id="q" type="search" placeholder="Ex : un cadeau pour mon père qui aime le jardinage" aria-label="Décrivez la personne à qui vous offrez">
+        <div class="model-picker" id="model-picker">
+          <button type="button" class="model-btn" id="model-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="model-menu" title="Changer de modèle d'IA">
+            <span class="model-btn__dot" id="model-btn-dot"></span>
+            <span id="model-btn-label">Modèle</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="model-menu" id="model-menu" role="listbox" aria-label="Modèles d'IA" hidden></div>
+        </div>
+        <button type="submit" class="search__submit">Trouver</button>
+      </form>
+      <div class="chips" id="examples" aria-label="Exemples de recherches"></div>
+
+      <div class="ai-status" id="ai-status" data-state="loading">
+        <span class="ai-status__dot"></span>
+        <span class="ai-status__txt" id="ai-status-txt">Chargement de l'IA dans votre navigateur…</span>
+        <span class="ai-status__bar"><span id="ai-status-bar"></span></span>
+      </div>
+      <div class="ai-notice" id="ai-notice" role="alert" hidden><span id="ai-notice-txt"></span><button type="button" id="ai-notice-close" aria-label="Fermer">×</button></div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div class="toolbar">
+      <div class="segmented" role="tablist" aria-label="Mode d'affichage">
+        <button role="tab" aria-selected="true" data-mode="compare">Comparer<span class="hide-sm"> les deux recherches</span></button>
+        <button role="tab" aria-selected="false" data-mode="client">Vue client</button>
+      </div>
+      <p class="toolbar__hint" id="toolbar-hint">Même requête, deux moteurs : à gauche la recherche par mots-clés, à droite l'IA sémantique.</p>
+    </div>
+
+    <section id="passion" class="passion" hidden></section>
+
+    <section class="results" id="results" data-mode="compare">
+      <div class="col col--kw">
+        <div class="col__head">
+          <div>
+            <h2>Recherche classique</h2>
+            <p>Mots-clés · correspondance exacte ou préfixe</p>
+          </div>
+          <span class="col__meta" id="kw-meta"></span>
+        </div>
+        <div class="list" id="kw-list"></div>
+      </div>
+      <div class="col col--ai">
+        <div class="col__head">
+          <div>
+            <h2>Recherche IA <span class="tag-ai" id="ai-model-tag">sémantique</span></h2>
+            <p>Comprend le sens, les synonymes et l'intention</p>
+          </div>
+          <span class="col__meta" id="ai-meta"></span>
+        </div>
+        <div class="list" id="ai-list"></div>
+      </div>
+    </section>
+
+    <section class="capot" id="sous-le-capot">
+      <div class="section-head">
+        <p class="eyebrow eyebrow--dark">Sous le capot</p>
+        <h2>100 % dans le navigateur, 0 donnée envoyée</h2>
+        <p>Le modèle d'IA est téléchargé une seule fois puis mis en cache. Chaque recherche est calculée sur l'appareil du client : pas d'API payante, pas de serveur GPU, aucune requête de recherche transmise.</p>
+      </div>
+      <div class="tiles" id="tiles"></div>
+    </section>
+
+    <section class="bench" id="benchmark">
+      <div class="section-head">
+        <p class="eyebrow eyebrow--dark">Le match</p>
+        <h2>Mots-clés vs modèles d'IA sur de vraies demandes clients</h2>
+        <p><span id="bench-n">30</span> formulations naturelles, telles qu'un client les taperait. On mesure si le bon univers ressort du premier coup, si les enseignes affichées correspondent vraiment au besoin, et ce que coûte chaque modèle en poids et en vitesse.</p>
+        <div class="bench__models" id="bench-models" aria-label="Modèles à comparer"></div>
+        <div class="bench__actions">
+          <button class="btn" id="bench-run" disabled>Lancer le test</button>
+          <label class="bench-cold" title="Recalcule l'index de chaque modèle au lieu de le lire depuis le cache, pour mesurer le vrai temps d'indexation">
+            <input type="checkbox" id="bench-cold"> Mesure à froid (recalculer les index)
+          </label>
+          <span class="bench__status" id="bench-status"></span>
+        </div>
+      </div>
+      <div id="bench-out"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p><strong>POC Gift.cool × transformers.js</strong> — modèle <span id="foot-model"></span> exécuté localement (WebAssembly / WebGPU).</p>
+      <p id="foot-catalog"></p>
+      <p class="muted">Démonstrateur non officiel. Logos d'enseignes affichés via leur favicon public ; visuels des cartes issus de gift.cool.</p>
+    </div>
+  </footer>
+
+  <dialog class="key-dialog" id="key-dialog" aria-labelledby="key-title">
+    <form id="key-form" method="dialog">
+      <h3 id="key-title">Clé API Gemini</h3>
+      <p>Les modèles Gemini Embedding ne sont pas téléchargeables : ils tournent sur les serveurs de Google. Pour les tester, collez une clé API gratuite créée sur <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>.</p>
+      <label for="key-input">Clé API</label>
+      <input id="key-input" type="password" autocomplete="off" spellcheck="false" placeholder="AIza…">
+      <fieldset class="key-tier">
+        <legend>Type de clé</legend>
+        <label><input type="radio" name="key-tier" value="free" checked> Gratuite <small>≈ 100 textes/min et 1 000/jour par modèle : l'indexation prend ≈ 3 min</small></label>
+        <label><input type="radio" name="key-tier" value="paid"> Facturation activée <small>quotas élevés : indexation en quelques secondes (moins de 0,01 $ par index)</small></label>
+      </fieldset>
+      <p class="key-error" id="key-error" role="alert"></p>
+      <p class="key-note">La clé reste dans ce navigateur et n'est envoyée qu'à Google. Pour une démo publique sur GitHub Pages, restreignez-la à votre domaine dans la console Google Cloud.</p>
+      <div class="key-actions">
+        <button type="button" class="linkish" id="key-forget" hidden>Supprimer la clé</button>
+        <span class="key-spacer"></span>
+        <button type="button" class="btn btn--ghost" id="key-cancel">Annuler</button>
+        <button type="submit" class="btn">Enregistrer</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

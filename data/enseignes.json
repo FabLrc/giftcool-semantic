@@ -1,0 +1,4068 @@
+[
+{
+"id": "pathe",
+"name": "Pathé",
+"domain": "pathe.fr",
+"src": "gc",
+"passions": [
+"culture"
+],
+"tags": [
+"cinéma",
+"films",
+"places",
+"avant-premières"
+],
+"desc": "Réseau de salles de cinéma : places pour les dernières sorties, avant-premières, séances IMAX et 4DX, retransmissions d'opéras et de concerts sur grand écran."
+},
+{
+"id": "fnac-darty",
+"name": "Fnac Darty",
+"domain": "fnac.com",
+"src": "gc",
+"passions": [
+"culture",
+"lecture",
+"jeux",
+"brico-deco",
+"badminton"
+],
+"tags": [
+"livres",
+"high-tech",
+"électroménager",
+"billetterie",
+"jeux vidéo"
+],
+"desc": "Livres, BD, vinyles, consoles, appareils photo, enceintes et électroménager, plus la billetterie de concerts et spectacles partout en France."
+},
+{
+"id": "izneo",
+"name": "Izneo",
+"domain": "izneo.com",
+"src": "gc",
+"passions": [
+"culture",
+"lecture"
+],
+"tags": [
+"bd numérique",
+"mangas",
+"comics",
+"abonnement"
+],
+"desc": "Plateforme de lecture numérique de bandes dessinées, mangas et comics : des milliers d'albums à lire sur tablette, smartphone ou ordinateur."
+},
+{
+"id": "netflix",
+"name": "Netflix",
+"domain": "netflix.com",
+"src": "gc",
+"passions": [
+"culture"
+],
+"tags": [
+"streaming",
+"séries",
+"films",
+"documentaires"
+],
+"desc": "Service de streaming vidéo : séries, films, documentaires et animés à regarder en illimité à la maison ou en déplacement."
+},
+{
+"id": "spotify",
+"name": "Spotify",
+"domain": "spotify.com",
+"src": "gc",
+"passions": [
+"culture",
+"danse"
+],
+"tags": [
+"musique",
+"streaming",
+"podcasts",
+"playlists"
+],
+"desc": "Streaming musical et podcasts : des millions de titres, playlists personnalisées et écoute hors ligne pour les mélomanes."
+},
+{
+"id": "deezer",
+"name": "Deezer",
+"domain": "deezer.com",
+"src": "gc",
+"passions": [
+"culture",
+"danse"
+],
+"tags": [
+"musique",
+"streaming",
+"playlists"
+],
+"desc": "Plateforme française de streaming musical : albums, playlists, radios thématiques et paroles synchronisées pour chanter et danser."
+},
+{
+"id": "jardiland",
+"name": "Jardiland",
+"domain": "jardiland.com",
+"src": "gc",
+"passions": [
+"brico-deco",
+"animaux",
+"ma-planete"
+],
+"tags": [
+"jardin",
+"plantes",
+"animalerie",
+"potager"
+],
+"desc": "Jardinerie et animalerie : plantes, semis, outillage de jardin, mobilier d'extérieur, potager, aquariophilie et tout pour les animaux de compagnie."
+},
+{
+"id": "truffaut",
+"name": "Truffaut",
+"domain": "truffaut.com",
+"src": "gc",
+"passions": [
+"brico-deco",
+"animaux",
+"deco"
+],
+"tags": [
+"jardinerie",
+"plantes",
+"fleurs",
+"animalerie"
+],
+"desc": "Spécialiste du jardin depuis 1824 : plantes d'intérieur et d'extérieur, rosiers, graines, terreau, outils, décoration de terrasse et rayon animaux."
+},
+{
+"id": "ikea",
+"name": "IKEA",
+"domain": "ikea.com",
+"src": "gc",
+"passions": [
+"brico-deco",
+"deco"
+],
+"tags": [
+"meubles",
+"rangement",
+"cuisine",
+"luminaires"
+],
+"desc": "Meubles à monter soi-même, rangements, cuisines, luminaires, textiles et petits objets déco à prix accessibles pour aménager toute la maison."
+},
+{
+"id": "maisons-du-monde",
+"name": "Maisons du Monde",
+"domain": "maisonsdumonde.com",
+"src": "gc",
+"passions": [
+"brico-deco",
+"deco"
+],
+"tags": [
+"meubles",
+"décoration",
+"salon",
+"jardin"
+],
+"desc": "Mobilier et décoration au style affirmé : industriel, bohème, scandinave ou exotique, pour le salon, la chambre et l'extérieur."
+},
+{
+"id": "cdiscount",
+"name": "Cdiscount",
+"domain": "cdiscount.com",
+"src": "gc",
+"passions": [
+"brico-deco",
+"badminton"
+],
+"tags": [
+"high-tech",
+"maison",
+"bricolage",
+"sport"
+],
+"desc": "Grand site marchand généraliste : high-tech, électroménager, bricolage, jardin, sport et maison à prix serrés."
+},
+{
+"id": "zoomalia",
+"name": "Zoomalia",
+"domain": "zoomalia.com",
+"src": "gc",
+"passions": [
+"animaux"
+],
+"tags": [
+"animalerie",
+"croquettes",
+"chat",
+"chien"
+],
+"desc": "Animalerie en ligne : croquettes, litière, jouets, griffoirs et accessoires pour chiens, chats, rongeurs, oiseaux et reptiles."
+},
+{
+"id": "inooko",
+"name": "Inooko",
+"domain": "inooko.com",
+"src": "gc",
+"passions": [
+"animaux"
+],
+"tags": [
+"chien",
+"accessoires",
+"design"
+],
+"desc": "Accessoires design pour chiens et chats : paniers, colliers, laisses, gamelles et jouets pensés pour le confort de l'animal."
+},
+{
+"id": "toutou",
+"name": "Toutou",
+"domain": "toutou.fr",
+"src": "gc",
+"passions": [
+"animaux"
+],
+"tags": [
+"chien",
+"alimentation",
+"friandises"
+],
+"desc": "Alimentation et friandises pour chiens, recettes adaptées à l'âge, à la race et aux besoins spécifiques de chaque toutou."
+},
+{
+"id": "royalesse",
+"name": "Royalesse",
+"domain": "royalesse.fr",
+"src": "gc",
+"passions": [
+"animaux"
+],
+"tags": [
+"chat",
+"chien",
+"premium"
+],
+"desc": "Produits premium pour animaux de compagnie : soins, coussins, colliers élégants et accessoires haut de gamme pour chats et chiens."
+},
+{
+"id": "king-jouet",
+"name": "King Jouet",
+"domain": "king-jouet.com",
+"src": "gc",
+"passions": [
+"jeux",
+"mini-moi"
+],
+"tags": [
+"jouets",
+"jeux de société",
+"poupées",
+"lego"
+],
+"desc": "Enseigne de jouets : jeux de société, briques de construction, poupées, figurines, déguisements, jeux d'éveil et jeux de plein air."
+},
+{
+"id": "the-game",
+"name": "The Game",
+"domain": "the-game.fr",
+"src": "gc",
+"passions": [
+"jeux"
+],
+"tags": [
+"jeux vidéo",
+"consoles",
+"rétrogaming"
+],
+"desc": "Magasins spécialisés jeux vidéo neufs et d'occasion, consoles, rétrogaming, figurines et produits dérivés pour gamers."
+},
+{
+"id": "grande-recre",
+"name": "La Grande Récré",
+"domain": "lagranderecre.fr",
+"src": "gc",
+"passions": [
+"jeux",
+"mini-moi"
+],
+"tags": [
+"jouets",
+"jeux",
+"enfants"
+],
+"desc": "Jouets et jeux pour tous les âges : construction, loisirs créatifs, jeux de société en famille, peluches et jeux d'extérieur."
+},
+{
+"id": "steam",
+"name": "Steam",
+"domain": "steampowered.com",
+"src": "gc",
+"passions": [
+"jeux"
+],
+"tags": [
+"jeux pc",
+"gaming",
+"dématérialisé"
+],
+"desc": "Plateforme de jeux PC dématérialisés : des milliers de titres indépendants et AAA, du RPG au jeu de stratégie, à télécharger instantanément."
+},
+{
+"id": "crunchyroll",
+"name": "Crunchyroll",
+"domain": "crunchyroll.com",
+"src": "gc",
+"passions": [
+"jeux",
+"culture"
+],
+"tags": [
+"animés",
+"manga",
+"streaming"
+],
+"desc": "Le streaming dédié aux animés japonais : simulcasts, séries cultes et films d'animation pour les fans de culture japonaise."
+},
+{
+"id": "nintendo",
+"name": "Nintendo Switch Online",
+"domain": "nintendo.com",
+"src": "gc",
+"passions": [
+"jeux"
+],
+"tags": [
+"nintendo",
+"switch",
+"jeu en ligne"
+],
+"desc": "Abonnement et eShop Nintendo : jeu en ligne sur Switch, classiques rétro NES et Super Nintendo, Mario, Zelda, Pokémon et jeux à télécharger."
+},
+{
+"id": "adidas",
+"name": "adidas",
+"domain": "adidas.fr",
+"src": "gc",
+"passions": [
+"mode",
+"running",
+"foot",
+"danse",
+"badminton",
+"cyclisme"
+],
+"tags": [
+"sport",
+"sneakers",
+"maillots",
+"textile"
+],
+"desc": "Équipementier sportif : chaussures de running, crampons, maillots, sneakers lifestyle et textile technique pour tous les sports."
+},
+{
+"id": "decathlon",
+"name": "Decathlon",
+"domain": "decathlon.fr",
+"src": "gc",
+"passions": [
+"foot",
+"badminton",
+"running",
+"cyclisme",
+"aventure"
+],
+"tags": [
+"sport",
+"randonnée",
+"vélo",
+"camping"
+],
+"desc": "Articles de sport pour plus de 60 disciplines : randonnée, camping, vélo, sports de raquette, sports collectifs, natation, fitness et sports d'hiver."
+},
+{
+"id": "france-jouffre",
+"name": "France Jouffre",
+"domain": "francejouffre.fr",
+"src": "gc",
+"passions": [
+"badminton"
+],
+"tags": [
+"badminton",
+"raquettes",
+"volants"
+],
+"desc": "Spécialiste du badminton : raquettes, volants plumes et synthétiques, cordages, chaussures indoor et sacs pour joueurs de club."
+},
+{
+"id": "lequipe",
+"name": "L'Équipe",
+"domain": "lequipe.fr",
+"src": "gc",
+"passions": [
+"badminton",
+"foot"
+],
+"tags": [
+"presse sportive",
+"abonnement",
+"actualité"
+],
+"desc": "Le quotidien du sport : abonnement numérique et papier, résultats, analyses et reportages sur le foot, le rugby, le tennis et tous les sports."
+},
+{
+"id": "rituals",
+"name": "Rituals",
+"domain": "rituals.com",
+"src": "gc",
+"passions": [
+"beaute",
+"bien-etre"
+],
+"tags": [
+"soins",
+"parfums d'intérieur",
+"coffrets"
+],
+"desc": "Cosmétiques et rituels de soin inspirés des traditions asiatiques : gels douche, crèmes, bougies parfumées et coffrets cadeaux relaxants."
+},
+{
+"id": "treatwell",
+"name": "Treatwell",
+"domain": "treatwell.fr",
+"src": "gc",
+"passions": [
+"beaute",
+"bien-etre"
+],
+"tags": [
+"salons",
+"massage",
+"coiffeur",
+"réservation"
+],
+"desc": "Réservation en ligne de salons de coiffure, instituts, massages, manucures et spas près de chez soi."
+},
+{
+"id": "patyka",
+"name": "Patyka",
+"domain": "patyka.com",
+"src": "gc",
+"passions": [
+"beaute",
+"ma-planete"
+],
+"tags": [
+"cosmétique bio",
+"soins visage"
+],
+"desc": "Cosmétique bio française : soins visage et corps certifiés, formules naturelles et engagées pour une beauté responsable."
+},
+{
+"id": "marionnaud",
+"name": "Marionnaud",
+"domain": "marionnaud.fr",
+"src": "gc",
+"passions": [
+"beaute"
+],
+"tags": [
+"parfumerie",
+"maquillage",
+"soins"
+],
+"desc": "Parfumerie : parfums femme et homme, maquillage, soins du visage et instituts de beauté dans des centaines de boutiques."
+},
+{
+"id": "blissim",
+"name": "Blissim",
+"domain": "blissim.fr",
+"src": "gc",
+"passions": [
+"beaute"
+],
+"tags": [
+"box beauté",
+"abonnement",
+"découverte"
+],
+"desc": "Box beauté mensuelle : chaque mois des produits de maquillage et de soin à découvrir, plus une boutique en ligne de marques."
+},
+{
+"id": "yves-rocher",
+"name": "Yves Rocher",
+"domain": "yves-rocher.fr",
+"src": "gc",
+"passions": [
+"beaute",
+"bien-etre"
+],
+"tags": [
+"cosmétique végétale",
+"soins",
+"parfums"
+],
+"desc": "Cosmétique végétale née en Bretagne : soins visage, maquillage, gels douche et parfums aux actifs naturels, instituts de beauté."
+},
+{
+"id": "nails-company",
+"name": "Nails Company",
+"domain": "nailscompany.fr",
+"src": "gc",
+"passions": [
+"bien-etre",
+"beaute"
+],
+"tags": [
+"ongles",
+"manucure",
+"pose de vernis"
+],
+"desc": "Bars à ongles : manucure, pédicure, pose de vernis semi-permanent et nail art réalisés par des prothésistes ongulaires."
+},
+{
+"id": "smartbox",
+"name": "Smartbox",
+"domain": "smartbox.com",
+"src": "gc",
+"passions": [
+"bien-etre",
+"aventure",
+"saveurs"
+],
+"tags": [
+"coffrets",
+"séjours",
+"expériences"
+],
+"desc": "Coffrets cadeaux d'expériences : séjours en amoureux, massages et spas, dîners gastronomiques, activités sportives et sensations."
+},
+{
+"id": "quitoque",
+"name": "Quitoque",
+"domain": "quitoque.fr",
+"src": "gc",
+"passions": [
+"bien-etre",
+"saveurs"
+],
+"tags": [
+"paniers recettes",
+"livraison",
+"cuisine maison"
+],
+"desc": "Paniers repas livrés à domicile avec recettes et ingrédients frais, pour cuisiner facilement des plats sains et équilibrés."
+},
+{
+"id": "balletto",
+"name": "Balletto Dance Shop",
+"domain": "balletto.fr",
+"src": "gc",
+"passions": [
+"danse"
+],
+"tags": [
+"danse classique",
+"pointes",
+"justaucorps"
+],
+"desc": "Boutique de danse : chaussons et pointes, justaucorps, tutus, collants, tenues de modern jazz et accessoires de studio."
+},
+{
+"id": "opera-paris",
+"name": "Opéra national de Paris",
+"domain": "operadeparis.fr",
+"src": "gc",
+"passions": [
+"danse",
+"culture"
+],
+"tags": [
+"ballet",
+"opéra",
+"spectacles"
+],
+"desc": "Ballets, opéras et concerts au Palais Garnier et à l'Opéra Bastille, visites guidées et boutique de l'Opéra."
+},
+{
+"id": "sarenza",
+"name": "Sarenza",
+"domain": "sarenza.com",
+"src": "gc",
+"passions": [
+"danse",
+"mode"
+],
+"tags": [
+"chaussures",
+"sacs",
+"baskets"
+],
+"desc": "Chaussures et sacs en ligne pour femme, homme et enfant : escarpins, baskets, boots, sandales, des centaines de marques."
+},
+{
+"id": "eataly",
+"name": "Eataly",
+"domain": "eataly.net",
+"src": "gc",
+"passions": [
+"saveurs"
+],
+"tags": [
+"épicerie italienne",
+"restaurant",
+"pâtes"
+],
+"desc": "Le grand marché de la gastronomie italienne : pâtes fraîches, huile d'olive, fromages, vins italiens, restaurants et cours de cuisine."
+},
+{
+"id": "ecomiam",
+"name": "Ecomiam",
+"domain": "ecomiam.com",
+"src": "gc",
+"passions": [
+"saveurs",
+"ma-planete"
+],
+"tags": [
+"surgelés",
+"produits français",
+"circuit court"
+],
+"desc": "Surgelés 100 % français en circuit court : viandes, poissons, légumes et plats cuisinés issus de producteurs locaux."
+},
+{
+"id": "culinaries",
+"name": "Culinaries",
+"domain": "culinaries.fr",
+"src": "gc",
+"passions": [
+"saveurs"
+],
+"tags": [
+"ustensiles",
+"cuisine",
+"pâtisserie"
+],
+"desc": "Ustensiles de cuisine et de pâtisserie : couteaux, casseroles, moules, robots et accessoires pour cuisiniers amateurs et passionnés."
+},
+{
+"id": "cocktailist",
+"name": "The Cocktailist",
+"domain": "thecocktailist.fr",
+"src": "gc",
+"passions": [
+"saveurs"
+],
+"tags": [
+"cocktails",
+"mixologie",
+"spiritueux"
+],
+"desc": "Kits et box à cocktails, spiritueux et accessoires de mixologie pour préparer des cocktails de bar à la maison."
+},
+{
+"id": "foot-locker",
+"name": "Foot Locker",
+"domain": "footlocker.fr",
+"src": "gc",
+"passions": [
+"mode",
+"foot"
+],
+"tags": [
+"sneakers",
+"streetwear",
+"baskets"
+],
+"desc": "Sneakers et streetwear : baskets Nike, Jordan, adidas, New Balance, éditions limitées et vêtements urbains."
+},
+{
+"id": "asos",
+"name": "ASOS",
+"domain": "asos.com",
+"src": "gc",
+"passions": [
+"mode"
+],
+"tags": [
+"prêt-à-porter",
+"tendances",
+"en ligne"
+],
+"desc": "Mode en ligne pour les 20-30 ans : des milliers de pièces tendance, vêtements, chaussures et accessoires de centaines de marques."
+},
+{
+"id": "zalando",
+"name": "Zalando",
+"domain": "zalando.fr",
+"src": "gc",
+"passions": [
+"mode"
+],
+"tags": [
+"vêtements",
+"chaussures",
+"marques"
+],
+"desc": "Plateforme mode : vêtements, chaussures et accessoires pour femme, homme et enfant, des grandes marques aux créateurs."
+},
+{
+"id": "la-redoute",
+"name": "La Redoute",
+"domain": "laredoute.fr",
+"src": "gc",
+"passions": [
+"mode",
+"deco"
+],
+"tags": [
+"vêtements",
+"maison",
+"linge"
+],
+"desc": "Mode et maison : vêtements pour toute la famille, linge de lit, meubles et décoration, une enseigne française historique."
+},
+{
+"id": "kiabi",
+"name": "Kiabi",
+"domain": "kiabi.com",
+"src": "gc",
+"passions": [
+"mode",
+"mini-moi"
+],
+"tags": [
+"vêtements",
+"famille",
+"petits prix"
+],
+"desc": "Vêtements à petits prix pour toute la famille, de la naissance aux grandes tailles, basiques et tendances."
+},
+{
+"id": "alltricks",
+"name": "Alltricks",
+"domain": "alltricks.fr",
+"src": "gc",
+"passions": [
+"running",
+"cyclisme"
+],
+"tags": [
+"vélo",
+"trail",
+"pièces détachées"
+],
+"desc": "Spécialiste du vélo et du running : vélos de route, VTT, pièces détachées, chaussures de trail, montres GPS et nutrition sportive."
+},
+{
+"id": "jd-sports",
+"name": "JD Sports",
+"domain": "jdsports.fr",
+"src": "gc",
+"passions": [
+"running",
+"mode"
+],
+"tags": [
+"sneakers",
+"sportswear"
+],
+"desc": "Sportswear et sneakers : baskets, joggings, survêtements et vêtements de sport des grandes marques."
+},
+{
+"id": "strava",
+"name": "Strava",
+"domain": "strava.com",
+"src": "gc",
+"passions": [
+"running",
+"foot",
+"cyclisme"
+],
+"tags": [
+"application",
+"suivi d'activité",
+"gps"
+],
+"desc": "Application de suivi sportif : enregistrer ses sorties course et vélo, analyser ses performances, segments et défis entre amis."
+},
+{
+"id": "ogarun",
+"name": "Ogarun",
+"domain": "ogarun.com",
+"src": "gc",
+"passions": [
+"running"
+],
+"tags": [
+"trail",
+"ultra",
+"équipement"
+],
+"desc": "Magasin des coureurs de trail et d'ultra : chaussures, sacs d'hydratation, bâtons, frontales et vêtements techniques de montagne."
+},
+{
+"id": "gayaskin",
+"name": "Gayaskin",
+"domain": "gayaskin.com",
+"src": "gc",
+"passions": [
+"running",
+"bien-etre"
+],
+"tags": [
+"récupération",
+"soins sportifs"
+],
+"desc": "Soins naturels pour sportifs : baumes de massage, crèmes anti-frottements et produits de récupération musculaire."
+},
+{
+"id": "cooltra",
+"name": "Cooltra",
+"domain": "cooltra.com",
+"src": "gc",
+"passions": [
+"cyclisme",
+"aventure"
+],
+"tags": [
+"location",
+"vélo électrique",
+"scooter"
+],
+"desc": "Location de vélos et scooters électriques en libre-service et à la journée pour se balader en ville."
+},
+{
+"id": "radior",
+"name": "Radior Bike",
+"domain": "radiorbike.com",
+"src": "gc",
+"passions": [
+"cyclisme"
+],
+"tags": [
+"vélo",
+"atelier",
+"réparation"
+],
+"desc": "Vélos et atelier de réparation : révision, entretien, réglages et accessoires pour cyclistes urbains et sportifs."
+},
+{
+"id": "upway",
+"name": "Upway",
+"domain": "upway.fr",
+"src": "gc",
+"passions": [
+"cyclisme",
+"ma-planete"
+],
+"tags": [
+"vélo électrique",
+"reconditionné"
+],
+"desc": "Vélos électriques reconditionnés et garantis : VAE urbains, cargos et VTT électriques jusqu'à moitié prix."
+},
+{
+"id": "recyclivre",
+"name": "Recyclivre",
+"domain": "recyclivre.com",
+"src": "gc",
+"passions": [
+"lecture",
+"ma-planete"
+],
+"tags": [
+"livres d'occasion",
+"solidaire"
+],
+"desc": "Livres d'occasion en ligne à petits prix, une démarche solidaire et écologique qui donne une seconde vie aux livres."
+},
+{
+"id": "auchan",
+"name": "Auchan",
+"domain": "auchan.fr",
+"src": "gc",
+"passions": [
+"lecture"
+],
+"tags": [
+"hypermarché",
+"livres",
+"produits culturels"
+],
+"desc": "Hypermarchés et supermarchés : rayon livres, presse, produits culturels, multimédia et courses du quotidien."
+},
+{
+"id": "booki-box",
+"name": "Booki-box",
+"domain": "booki-box.com",
+"src": "gc",
+"passions": [
+"lecture",
+"mini-moi"
+],
+"tags": [
+"box livres",
+"abonnement"
+],
+"desc": "Box littéraire par abonnement : chaque mois un roman sélectionné selon ses goûts, accompagné de petites surprises."
+},
+{
+"id": "abo-manga",
+"name": "Abo Manga",
+"domain": "abomanga.fr",
+"src": "gc",
+"passions": [
+"lecture",
+"jeux"
+],
+"tags": [
+"mangas",
+"abonnement",
+"shonen"
+],
+"desc": "Abonnement mangas : recevoir chaque mois les nouveaux tomes de ses séries préférées, shōnen, seinen ou shōjo."
+},
+{
+"id": "lfp",
+"name": "LFP - Ligue de Football Professionnel",
+"domain": "lfp.fr",
+"src": "gc",
+"passions": [
+"foot"
+],
+"tags": [
+"ligue 1",
+"billetterie",
+"matchs"
+],
+"desc": "Billetterie et expériences autour de la Ligue 1 et de la Ligue 2 : matchs au stade, produits officiels des clubs."
+},
+{
+"id": "so-foot",
+"name": "So Foot",
+"domain": "sofoot.com",
+"src": "gc",
+"passions": [
+"foot"
+],
+"tags": [
+"magazine",
+"abonnement"
+],
+"desc": "Magazine de football décalé : abonnements, numéros spéciaux et livres sur la culture foot."
+},
+{
+"id": "decathlon-travel",
+"name": "Decathlon Travel",
+"domain": "decathlon-travel.com",
+"src": "gc",
+"passions": [
+"aventure"
+],
+"tags": [
+"trek",
+"voyage",
+"randonnée"
+],
+"desc": "Voyages d'aventure à pied et à vélo : treks, randonnées en montagne, raids en kayak et séjours sportifs encadrés en France et à l'étranger."
+},
+{
+"id": "hapik",
+"name": "Hapik",
+"domain": "hapik.fr",
+"src": "gc",
+"passions": [
+"aventure"
+],
+"tags": [
+"escalade",
+"bloc",
+"loisir indoor"
+],
+"desc": "Salles d'escalade ludique : murs interactifs et parcours de grimpe pour s'amuser entre amis ou en famille, dès 4 ans."
+},
+{
+"id": "prizoners",
+"name": "Prizoners",
+"domain": "prizoners.com",
+"src": "gc",
+"passions": [
+"aventure",
+"jeux"
+],
+"tags": [
+"escape game",
+"énigmes",
+"équipe"
+],
+"desc": "Escape games : s'enfermer en équipe dans une salle à thème et résoudre des énigmes pour s'échapper en moins d'une heure."
+},
+{
+"id": "fever",
+"name": "Fever",
+"domain": "feverup.com",
+"src": "gc",
+"passions": [
+"aventure",
+"culture"
+],
+"tags": [
+"sorties",
+"expériences",
+"concerts candlelight"
+],
+"desc": "Billetterie de sorties et expériences insolites : concerts à la bougie, expositions immersives, ateliers et soirées originales en ville."
+},
+{
+"id": "getyourguide",
+"name": "GetYourGuide",
+"domain": "getyourguide.fr",
+"src": "gc",
+"passions": [
+"aventure"
+],
+"tags": [
+"visites",
+"activités",
+"voyage"
+],
+"desc": "Réservation d'activités et visites en voyage : excursions, croisières, musées coupe-file, balades en bateau et tours guidés."
+},
+{
+"id": "wonderbox",
+"name": "Wonderbox",
+"domain": "wonderbox.fr",
+"src": "gc",
+"passions": [
+"aventure",
+"bien-etre"
+],
+"tags": [
+"coffrets",
+"saut en parachute",
+"pilotage"
+],
+"desc": "Coffrets d'expériences et de sensations fortes : saut en parachute, pilotage sur circuit, baptême de l'air, week-ends et massages."
+},
+{
+"id": "cleor",
+"name": "Cleor",
+"domain": "cleor.com",
+"src": "gc",
+"passions": [
+"bijoux"
+],
+"tags": [
+"bijoux",
+"or",
+"argent",
+"montres"
+],
+"desc": "Bijouterie : colliers, bagues, boucles d'oreilles et bracelets en or et argent, montres et bijoux personnalisables."
+},
+{
+"id": "swarovski",
+"name": "Swarovski",
+"domain": "swarovski.com",
+"src": "gc",
+"passions": [
+"bijoux"
+],
+"tags": [
+"cristal",
+"bijoux",
+"montres"
+],
+"desc": "Bijoux et objets en cristal : colliers, bracelets, montres et figurines scintillantes de la maison autrichienne."
+},
+{
+"id": "maty",
+"name": "Maty",
+"domain": "maty.com",
+"src": "gc",
+"passions": [
+"bijoux"
+],
+"tags": [
+"bijoux",
+"alliances",
+"gravure"
+],
+"desc": "Bijoutier français : bagues de fiançailles, alliances, bijoux gravés et personnalisés, montres pour femme et homme."
+},
+{
+"id": "galeries-lafayette",
+"name": "Galeries Lafayette",
+"domain": "galerieslafayette.com",
+"src": "gc",
+"passions": [
+"bijoux",
+"mode",
+"beaute"
+],
+"tags": [
+"grand magasin",
+"luxe",
+"créateurs"
+],
+"desc": "Grand magasin : mode et luxe, joaillerie, parfums, maroquinerie de créateurs, épicerie fine et maison."
+},
+{
+"id": "cyrillus",
+"name": "Cyrillus",
+"domain": "cyrillus.fr",
+"src": "gc",
+"passions": [
+"bijoux",
+"mode",
+"mini-moi"
+],
+"tags": [
+"vêtements",
+"enfants",
+"classique"
+],
+"desc": "Mode au style chic et intemporel pour femme, homme et enfant, accessoires et linge de maison."
+},
+{
+"id": "ditur",
+"name": "Ditur",
+"domain": "ditur.fr",
+"src": "gc",
+"passions": [
+"bijoux"
+],
+"tags": [
+"bijoux fantaisie",
+"créateurs"
+],
+"desc": "Bijoux de créateurs et bijoux fantaisie colorés : colliers, bracelets et boucles d'oreilles originaux."
+},
+{
+"id": "panafrica",
+"name": "Panafrica",
+"domain": "panafrica-store.com",
+"src": "gc",
+"passions": [
+"ma-planete",
+"mode"
+],
+"tags": [
+"baskets éthiques",
+"made in africa"
+],
+"desc": "Baskets éthiques fabriquées en Afrique, tissus wax, production responsable et projets solidaires pour l'éducation."
+},
+{
+"id": "naturalia",
+"name": "Naturalia",
+"domain": "naturalia.fr",
+"src": "gc",
+"passions": [
+"ma-planete",
+"saveurs"
+],
+"tags": [
+"bio",
+"épicerie",
+"vrac"
+],
+"desc": "Magasins bio : épicerie, fruits et légumes, vrac, produits frais et cosmétiques naturels pour mieux consommer."
+},
+{
+"id": "faguo",
+"name": "Faguo",
+"domain": "faguo-store.com",
+"src": "gc",
+"passions": [
+"ma-planete",
+"mode"
+],
+"tags": [
+"mode responsable",
+"sneakers",
+"sacs"
+],
+"desc": "Marque française de mode responsable : sneakers, sacs et vêtements en matières recyclées, une démarche bas carbone."
+},
+{
+"id": "mifb",
+"name": "Made in France Box",
+"domain": "madeinfrancebox.com",
+"src": "gc",
+"passions": [
+"ma-planete",
+"saveurs"
+],
+"tags": [
+"box",
+"made in france",
+"artisans"
+],
+"desc": "Box de produits fabriqués en France par des artisans et petites entreprises : gourmandises, cosmétiques et objets du quotidien."
+},
+{
+"id": "e-recycle",
+"name": "e-recycle",
+"domain": "e-recycle.fr",
+"src": "gc",
+"passions": [
+"ma-planete"
+],
+"tags": [
+"reconditionné",
+"high-tech"
+],
+"desc": "Smartphones, tablettes et ordinateurs reconditionnés et garantis, pour un high-tech plus durable."
+},
+{
+"id": "dots-eco",
+"name": "dots.eco",
+"domain": "dots.eco",
+"src": "gc",
+"passions": [
+"ma-planete"
+],
+"tags": [
+"impact",
+"plantation",
+"protection"
+],
+"desc": "Actions environnementales concrètes et certifiées : planter des arbres, protéger les océans et les abeilles, suivre son impact."
+},
+{
+"id": "chaise-longue",
+"name": "La Chaise Longue",
+"domain": "lachaiselongue.fr",
+"src": "gc",
+"passions": [
+"deco"
+],
+"tags": [
+"objets déco",
+"cadeaux",
+"humour"
+],
+"desc": "Objets déco et cadeaux décalés : vaisselle colorée, luminaires, gadgets et accessoires de maison pleins d'humour."
+},
+{
+"id": "hema",
+"name": "HEMA",
+"domain": "hema.com",
+"src": "gc",
+"passions": [
+"deco",
+"mini-moi"
+],
+"tags": [
+"maison",
+"papeterie",
+"petits prix"
+],
+"desc": "Enseigne néerlandaise : déco, vaisselle, papeterie, loisirs créatifs et petits indispensables du quotidien à prix doux."
+},
+{
+"id": "nature-decouvertes",
+"name": "Nature & Découvertes",
+"domain": "natureetdecouvertes.com",
+"src": "gc",
+"passions": [
+"deco",
+"bien-etre",
+"mini-moi",
+"ma-planete"
+],
+"tags": [
+"bien-être",
+"jeux",
+"nature",
+"huiles essentielles"
+],
+"desc": "Objets pour s'émerveiller de la nature : diffuseurs d'huiles essentielles, jeux scientifiques, jumelles, ateliers et sorties nature."
+},
+{
+"id": "cheerz",
+"name": "Cheerz",
+"domain": "cheerz.com",
+"src": "gc",
+"passions": [
+"deco"
+],
+"tags": [
+"tirages photo",
+"albums",
+"personnalisé"
+],
+"desc": "Impression photo depuis son smartphone : tirages, albums, cadres, calendriers et cadeaux personnalisés avec ses souvenirs."
+},
+{
+"id": "funbooker",
+"name": "Funbooker",
+"domain": "funbooker.com",
+"src": "gc",
+"passions": [
+"deco",
+"saveurs"
+],
+"tags": [
+"ateliers",
+"créatif",
+"cours"
+],
+"desc": "Réservation d'ateliers créatifs et culinaires : poterie, couture, œnologie, pâtisserie, fabrication de bougies avec des artisans."
+},
+{
+"id": "haut-les-cours",
+"name": "Haut les Cours",
+"domain": "hautlescours.fr",
+"src": "gc",
+"passions": [
+"deco"
+],
+"tags": [
+"cours",
+"diy",
+"loisirs créatifs"
+],
+"desc": "Cours et ateliers DIY : céramique, macramé, aquarelle, menuiserie et loisirs créatifs pour apprendre à faire soi-même."
+},
+{
+"id": "sergent-major",
+"name": "Sergent Major",
+"domain": "sergent-major.com",
+"src": "gc",
+"passions": [
+"mini-moi"
+],
+"tags": [
+"vêtements enfant",
+"bébé"
+],
+"desc": "Mode enfant de 0 à 14 ans : vêtements colorés et ludiques, pyjamas, chaussures et accessoires pour filles et garçons."
+},
+{
+"id": "oxybul",
+"name": "Oxybul",
+"domain": "oxybul.com",
+"src": "gc",
+"passions": [
+"mini-moi",
+"jeux"
+],
+"tags": [
+"jouets éducatifs",
+"éveil",
+"sciences"
+],
+"desc": "Jouets éducatifs et d'éveil : kits scientifiques, jeux de logique, loisirs créatifs, puzzles et jeux pour apprendre en s'amusant."
+},
+{
+"id": "vertbaudet",
+"name": "Vertbaudet",
+"domain": "vertbaudet.fr",
+"src": "gc",
+"passions": [
+"mini-moi"
+],
+"tags": [
+"puériculture",
+"chambre enfant",
+"vêtements"
+],
+"desc": "Tout pour bébé et enfant : puériculture, poussettes, mobilier de chambre, linge, vêtements de grossesse et de naissance."
+},
+{
+"id": "aubert",
+"name": "Aubert",
+"domain": "aubert.com",
+"src": "gc",
+"passions": [
+"mini-moi"
+],
+"tags": [
+"puériculture",
+"naissance",
+"bébé"
+],
+"desc": "Spécialiste de la puériculture : poussettes, sièges auto, lits, chaises hautes et listes de naissance."
+},
+{
+"id": "lib-et-lou",
+"name": "Lib et Lou",
+"domain": "libetlou.com",
+"src": "gc",
+"passions": [
+"mini-moi"
+],
+"tags": [
+"jeux en bois",
+"éveil"
+],
+"desc": "Jouets en bois et jeux d'éveil Montessori, cadeaux de naissance et décoration de chambre d'enfant."
+},
+{
+"id": "marypop",
+"name": "MaryPop",
+"domain": "marypop.fr",
+"src": "gc",
+"passions": [
+"mini-moi",
+"jeux"
+],
+"tags": [
+"déguisements",
+"anniversaire",
+"fête"
+],
+"desc": "Déguisements pour enfants, décoration d'anniversaire et accessoires de fête : princesses, super-héros, pirates et dinosaures."
+},
+{
+"id": "cultura",
+"name": "Cultura",
+"domain": "cultura.com",
+"src": "ex",
+"passions": [
+"culture",
+"lecture",
+"deco"
+],
+"tags": [
+"livres",
+"loisirs créatifs",
+"musique"
+],
+"desc": "Livres, mangas, instruments de musique, beaux-arts et loisirs créatifs : peinture, dessin, tricot, scrapbooking et ateliers en magasin."
+},
+{
+"id": "gibert",
+"name": "Gibert",
+"domain": "gibert.com",
+"src": "ex",
+"passions": [
+"lecture"
+],
+"tags": [
+"librairie",
+"livres",
+"occasion"
+],
+"desc": "Librairie historique du Quartier latin : livres neufs et d'occasion, romans, essais, manuels scolaires et universitaires."
+},
+{
+"id": "furet",
+"name": "Le Furet du Nord",
+"domain": "furet.com",
+"src": "ex",
+"passions": [
+"lecture"
+],
+"tags": [
+"librairie",
+"romans",
+"polars"
+],
+"desc": "Grande librairie du Nord : romans, polars, littérature jeunesse, beaux livres et rencontres avec les auteurs."
+},
+{
+"id": "kobo",
+"name": "Kobo",
+"domain": "kobo.com",
+"src": "ex",
+"passions": [
+"lecture"
+],
+"tags": [
+"liseuse",
+"ebooks",
+"livres audio"
+],
+"desc": "Liseuses électroniques et boutique d'e-books et de livres audio : lire partout, en voyage ou dans le noir."
+},
+{
+"id": "audible",
+"name": "Audible",
+"domain": "audible.fr",
+"src": "ex",
+"passions": [
+"lecture",
+"culture"
+],
+"tags": [
+"livres audio",
+"podcasts"
+],
+"desc": "Livres audio et podcasts : romans, thrillers, développement personnel lus par des comédiens, à écouter en voiture ou en courant."
+},
+{
+"id": "micromania",
+"name": "Micromania",
+"domain": "micromania.fr",
+"src": "ex",
+"passions": [
+"jeux"
+],
+"tags": [
+"jeux vidéo",
+"consoles",
+"playstation"
+],
+"desc": "Jeux vidéo et consoles PlayStation, Xbox et Switch, précommandes, accessoires gaming et produits dérivés."
+},
+{
+"id": "lego",
+"name": "LEGO Store",
+"domain": "lego.com",
+"src": "ex",
+"passions": [
+"jeux",
+"mini-moi"
+],
+"tags": [
+"briques",
+"construction",
+"sets"
+],
+"desc": "Sets de construction en briques pour enfants et adultes : vaisseaux, châteaux, voitures de course, architecture et éditions collector."
+},
+{
+"id": "philibert",
+"name": "Philibert",
+"domain": "philibertnet.com",
+"src": "ex",
+"passions": [
+"jeux"
+],
+"tags": [
+"jeux de société",
+"jeux de rôle",
+"figurines"
+],
+"desc": "Le spécialiste des jeux de société : jeux de stratégie, jeux d'ambiance, jeux de rôle, wargames et figurines à peindre."
+},
+{
+"id": "lunii",
+"name": "Lunii",
+"domain": "lunii.com",
+"src": "ex",
+"passions": [
+"mini-moi",
+"lecture"
+],
+"tags": [
+"conteuse",
+"histoires audio",
+"sans écran"
+],
+"desc": "La Fabrique à Histoires : boîte à histoires audio sans écran où l'enfant compose ses propres aventures."
+},
+{
+"id": "leroy-merlin",
+"name": "Leroy Merlin",
+"domain": "leroymerlin.fr",
+"src": "ex",
+"passions": [
+"brico-deco"
+],
+"tags": [
+"bricolage",
+"outillage",
+"rénovation"
+],
+"desc": "Bricolage, rénovation et jardin : perceuses, visseuses, peinture, carrelage, plomberie, électricité, abris et tondeuses."
+},
+{
+"id": "castorama",
+"name": "Castorama",
+"domain": "castorama.fr",
+"src": "ex",
+"passions": [
+"brico-deco"
+],
+"tags": [
+"bricolage",
+"outils",
+"travaux"
+],
+"desc": "Tout pour les travaux de la maison : outillage, matériaux, cuisine et salle de bains, aménagement extérieur et potager."
+},
+{
+"id": "botanic",
+"name": "Botanic",
+"domain": "botanic.com",
+"src": "ex",
+"passions": [
+"brico-deco",
+"ma-planete",
+"animaux"
+],
+"tags": [
+"jardinerie bio",
+"semences",
+"potager"
+],
+"desc": "Jardinerie engagée pour un jardinage au naturel : semences bio, plants de légumes, compost, outils, animalerie et épicerie bio."
+},
+{
+"id": "sephora",
+"name": "Sephora",
+"domain": "sephora.fr",
+"src": "ex",
+"passions": [
+"beaute"
+],
+"tags": [
+"maquillage",
+"parfums",
+"skincare"
+],
+"desc": "Beauté et parfumerie : maquillage, skincare coréen et français, parfums de créateurs, soins cheveux et marques exclusives."
+},
+{
+"id": "nocibe",
+"name": "Nocibé",
+"domain": "nocibe.fr",
+"src": "ex",
+"passions": [
+"beaute"
+],
+"tags": [
+"parfumerie",
+"maquillage",
+"soins"
+],
+"desc": "Parfumerie et instituts : parfums, maquillage, soins visage et corps, conseils beauté en boutique."
+},
+{
+"id": "lush",
+"name": "Lush",
+"domain": "lush.com",
+"src": "ex",
+"passions": [
+"beaute",
+"bien-etre",
+"ma-planete"
+],
+"tags": [
+"bombes de bain",
+"cosmétiques frais",
+"sans emballage"
+],
+"desc": "Cosmétiques frais faits main : bombes de bain effervescentes, shampooings solides, savons sans emballage et soins vegan."
+},
+{
+"id": "intersport",
+"name": "Intersport",
+"domain": "intersport.fr",
+"src": "ex",
+"passions": [
+"foot",
+"running",
+"badminton",
+"cyclisme"
+],
+"tags": [
+"sport",
+"chaussures",
+"textile"
+],
+"desc": "Magasins de sport : running, football, tennis, sports de raquette, ski, fitness et textile des grandes marques."
+},
+{
+"id": "go-sport",
+"name": "Go Sport",
+"domain": "go-sport.com",
+"src": "ex",
+"passions": [
+"foot",
+"running",
+"aventure"
+],
+"tags": [
+"sport",
+"outdoor",
+"fitness"
+],
+"desc": "Enseigne de sport : chaussures, vêtements et équipement pour le foot, la course, la randonnée, la glisse et la musculation."
+},
+{
+"id": "au-vieux-campeur",
+"name": "Au Vieux Campeur",
+"domain": "auvieuxcampeur.fr",
+"src": "ex",
+"passions": [
+"aventure",
+"running"
+],
+"tags": [
+"montagne",
+"escalade",
+"camping"
+],
+"desc": "Spécialiste de la montagne et du plein air : alpinisme, escalade, randonnée, bivouac, ski de randonnée, kayak et plongée."
+},
+{
+"id": "ifly",
+"name": "iFLY",
+"domain": "iflyworld.fr",
+"src": "ex",
+"passions": [
+"aventure"
+],
+"tags": [
+"chute libre indoor",
+"soufflerie"
+],
+"desc": "Simulateur de chute libre en soufflerie : voler comme un parachutiste en toute sécurité, accessible dès 5 ans."
+},
+{
+"id": "atelier-chefs",
+"name": "L'Atelier des Chefs",
+"domain": "atelierdeschefs.fr",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"cours de cuisine",
+"pâtisserie",
+"chef"
+],
+"desc": "Cours de cuisine et de pâtisserie avec des chefs : apprendre les techniques, du macaron au plat bistronomique, puis déguster."
+},
+{
+"id": "nicolas",
+"name": "Nicolas",
+"domain": "nicolas.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"caviste",
+"vins",
+"champagne"
+],
+"desc": "Caviste de quartier : vins de toutes les régions, champagnes, whiskies et spiritueux, conseils d'accords mets et vins."
+},
+{
+"id": "petit-ballon",
+"name": "Le Petit Ballon",
+"domain": "lepetitballon.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"box vin",
+"œnologie",
+"abonnement"
+],
+"desc": "Box de vins par abonnement : chaque mois deux bouteilles sélectionnées par des sommeliers, avec fiches de dégustation."
+},
+{
+"id": "lafourchette",
+"name": "TheFork",
+"domain": "thefork.fr",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"restaurants",
+"réservation",
+"gastronomie"
+],
+"desc": "Réservation de restaurants : tables gastronomiques, bistrots, restaurants étoilés et bonnes adresses partout en France."
+},
+{
+"id": "pandora",
+"name": "Pandora",
+"domain": "pandora.net",
+"src": "ex",
+"passions": [
+"bijoux"
+],
+"tags": [
+"charms",
+"bracelets",
+"argent"
+],
+"desc": "Bijoux à composer : bracelets à charms, bagues empilables et colliers en argent pour célébrer chaque moment de vie."
+},
+{
+"id": "histoire-dor",
+"name": "Histoire d'Or",
+"domain": "histoiredor.com",
+"src": "ex",
+"passions": [
+"bijoux"
+],
+"tags": [
+"bijouterie",
+"or",
+"diamants"
+],
+"desc": "Bijouterie joaillerie : bagues, solitaires, colliers en or et diamants, montres et cadeaux de naissance gravés."
+},
+{
+"id": "okaidi",
+"name": "Okaïdi",
+"domain": "okaidi.fr",
+"src": "ex",
+"passions": [
+"mini-moi",
+"mode"
+],
+"tags": [
+"vêtements enfant",
+"colorés"
+],
+"desc": "Vêtements pour enfants de 2 à 14 ans : collections colorées, pratiques et responsables pour jouer et grandir."
+},
+{
+"id": "petit-bateau",
+"name": "Petit Bateau",
+"domain": "petit-bateau.fr",
+"src": "ex",
+"passions": [
+"mini-moi"
+],
+"tags": [
+"bébé",
+"layette",
+"marinière"
+],
+"desc": "Layette, bodies, pyjamas et marinières en coton pour bébés et enfants, une marque française depuis 1893."
+},
+{
+"id": "veja",
+"name": "Veja",
+"domain": "veja-store.com",
+"src": "ex",
+"passions": [
+"ma-planete",
+"mode"
+],
+"tags": [
+"baskets",
+"coton bio",
+"éthique"
+],
+"desc": "Baskets en coton biologique, caoutchouc d'Amazonie et matériaux recyclés, fabriquées dans des conditions équitables."
+},
+{
+"id": "backmarket",
+"name": "Back Market",
+"domain": "backmarket.fr",
+"src": "ex",
+"passions": [
+"ma-planete"
+],
+"tags": [
+"reconditionné",
+"smartphone",
+"ordinateur"
+],
+"desc": "Smartphones, ordinateurs, consoles et électroménager reconditionnés par des professionnels, moins chers et plus durables."
+},
+{
+"id": "basic-fit",
+"name": "Basic-Fit",
+"domain": "basic-fit.com",
+"src": "ex",
+"passions": [
+"bien-etre",
+"running"
+],
+"tags": [
+"salle de sport",
+"fitness",
+"musculation"
+],
+"desc": "Salles de sport accessibles : musculation, cardio, cours collectifs virtuels et coaching pour se remettre en forme."
+},
+{
+"id": "caliceo",
+"name": "Calicéo",
+"domain": "caliceo.com",
+"src": "ex",
+"passions": [
+"bien-etre"
+],
+"tags": [
+"spa",
+"hammam",
+"jacuzzi"
+],
+"desc": "Centres aqualudiques de bien-être : bassins d'eau chaude, hammam, sauna, jacuzzi et massages pour une journée de détente."
+},
+{
+"id": "yoga-shop",
+"name": "Yogashop",
+"domain": "yogashop.fr",
+"src": "ex",
+"passions": [
+"bien-etre"
+],
+"tags": [
+"yoga",
+"méditation",
+"tapis"
+],
+"desc": "Tout pour le yoga et la méditation : tapis, briques, coussins de méditation, tenues souples et bols chantants."
+},
+{
+"id": "interflora",
+"name": "Interflora",
+"domain": "interflora.fr",
+"src": "ex",
+"passions": [
+"deco",
+"bien-etre"
+],
+"tags": [
+"fleurs",
+"bouquets",
+"livraison"
+],
+"desc": "Livraison de bouquets de fleurs fraîches et de plantes par des fleuristes artisans, pour un anniversaire ou pour dire merci."
+},
+{
+"id": "ticketmaster",
+"name": "Ticketmaster",
+"domain": "ticketmaster.fr",
+"src": "ex",
+"passions": [
+"culture",
+"danse",
+"foot"
+],
+"tags": [
+"billetterie",
+"concerts",
+"festivals"
+],
+"desc": "Billetterie de concerts, festivals, comédies musicales, one-man-shows et grands événements sportifs."
+},
+{
+"id": "paris-musees",
+"name": "Paris Musées",
+"domain": "parismusees.paris.fr",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"musées",
+"expositions",
+"visites"
+],
+"desc": "Billets pour les musées et expositions temporaires de la Ville de Paris : peinture, photographie, histoire et art moderne."
+},
+{
+"id": "woodbrass",
+"name": "Woodbrass",
+"domain": "woodbrass.com",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"instruments",
+"guitare",
+"piano"
+],
+"desc": "Instruments de musique : guitares, pianos numériques, batteries, home studio et partitions pour musiciens débutants ou confirmés."
+},
+{
+"id": "patagonia",
+"name": "Patagonia",
+"domain": "patagonia.com",
+"src": "ex",
+"passions": [
+"ma-planete",
+"aventure",
+"mode"
+],
+"tags": [
+"outdoor",
+"vêtements durables",
+"réparation"
+],
+"desc": "Vêtements outdoor durables et réparables : polaires, doudounes et vestes de montagne, une marque engagée pour la planète."
+},
+{
+"id": "boulanger",
+"name": "Boulanger",
+"domain": "boulanger.com",
+"src": "ex",
+"passions": [
+"brico-deco",
+"jeux"
+],
+"tags": [
+"électroménager",
+"high-tech",
+"tv"
+],
+"desc": "Électroménager, télévisions, ordinateurs, consoles et petit électroménager de cuisine, avec conseils et installation à domicile."
+},
+{
+"id": "apple",
+"name": "Apple",
+"domain": "apple.com",
+"src": "ex",
+"passions": [
+"jeux",
+"culture"
+],
+"tags": [
+"iphone",
+"mac",
+"ipad"
+],
+"desc": "iPhone, iPad, Mac, Apple Watch et AirPods, plus les abonnements Apple Music, Apple TV+ et Apple Arcade."
+},
+{
+"id": "ldlc",
+"name": "LDLC",
+"domain": "ldlc.com",
+"src": "ex",
+"passions": [
+"jeux"
+],
+"tags": [
+"informatique",
+"pc gamer",
+"composants"
+],
+"desc": "Informatique et high-tech : PC portables, composants pour monter son PC gamer, écrans, claviers mécaniques et périphériques."
+},
+{
+"id": "son-video",
+"name": "Son-Vidéo.com",
+"domain": "son-video.com",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"hi-fi",
+"home cinéma",
+"enceintes"
+],
+"desc": "Hi-fi et home cinéma : platines vinyles, amplificateurs, enceintes, casques audiophiles et vidéoprojecteurs."
+},
+{
+"id": "sonos",
+"name": "Sonos",
+"domain": "sonos.com",
+"src": "ex",
+"passions": [
+"culture",
+"deco"
+],
+"tags": [
+"enceintes",
+"multiroom",
+"barre de son"
+],
+"desc": "Enceintes connectées multiroom et barres de son pour écouter sa musique dans toute la maison."
+},
+{
+"id": "bose",
+"name": "Bose",
+"domain": "bose.fr",
+"src": "ex",
+"passions": [
+"culture",
+"running"
+],
+"tags": [
+"casque",
+"réduction de bruit",
+"écouteurs"
+],
+"desc": "Casques à réduction de bruit, écouteurs sans fil et enceintes portables au son puissant."
+},
+{
+"id": "gopro",
+"name": "GoPro",
+"domain": "gopro.com",
+"src": "ex",
+"passions": [
+"aventure",
+"cyclisme"
+],
+"tags": [
+"caméra embarquée",
+"vidéo",
+"sport extrême"
+],
+"desc": "Caméras d'action étanches pour filmer ses descentes à VTT, sessions de surf, plongées et sauts en parachute."
+},
+{
+"id": "miss-numerique",
+"name": "Miss Numérique",
+"domain": "missnumerique.com",
+"src": "ex",
+"passions": [
+"culture",
+"aventure"
+],
+"tags": [
+"appareil photo",
+"objectifs",
+"photographie"
+],
+"desc": "Appareils photo hybrides et reflex, objectifs, trépieds, drones et accessoires pour photographes amateurs et passionnés."
+},
+{
+"id": "dyson",
+"name": "Dyson",
+"domain": "dyson.fr",
+"src": "ex",
+"passions": [
+"beaute",
+"brico-deco"
+],
+"tags": [
+"sèche-cheveux",
+"aspirateur",
+"purificateur"
+],
+"desc": "Aspirateurs sans fil, sèche-cheveux et lisseurs haut de gamme, purificateurs d'air au design reconnaissable."
+},
+{
+"id": "garmin",
+"name": "Garmin",
+"domain": "garmin.com",
+"src": "ex",
+"passions": [
+"running",
+"cyclisme",
+"aventure"
+],
+"tags": [
+"montre gps",
+"compteur vélo",
+"cardio"
+],
+"desc": "Montres GPS multisports, compteurs vélo et capteurs cardio pour suivre ses entraînements, ses randonnées et ses triathlons."
+},
+{
+"id": "playstation",
+"name": "PlayStation Store",
+"domain": "playstation.com",
+"src": "ex",
+"passions": [
+"jeux"
+],
+"tags": [
+"ps5",
+"jeux vidéo",
+"dématérialisé"
+],
+"desc": "Jeux PS5 et PS4 à télécharger, abonnement PlayStation Plus et contenus additionnels pour les joueurs Sony."
+},
+{
+"id": "xbox",
+"name": "Xbox",
+"domain": "xbox.com",
+"src": "ex",
+"passions": [
+"jeux"
+],
+"tags": [
+"game pass",
+"console",
+"jeux vidéo"
+],
+"desc": "Consoles Xbox, abonnement Game Pass avec des centaines de jeux et jeux PC dématérialisés."
+},
+{
+"id": "games-workshop",
+"name": "Games Workshop",
+"domain": "games-workshop.com",
+"src": "ex",
+"passions": [
+"jeux"
+],
+"tags": [
+"warhammer",
+"figurines",
+"peinture"
+],
+"desc": "Figurines Warhammer à assembler et peindre, peintures, pinceaux et livres de règles pour les wargames."
+},
+{
+"id": "ludum",
+"name": "Ludum",
+"domain": "ludum.fr",
+"src": "ex",
+"passions": [
+"jeux"
+],
+"tags": [
+"jeux de société",
+"jeux d'ambiance",
+"famille"
+],
+"desc": "Boutique de jeux de société : jeux familiaux, jeux experts, jeux coopératifs et jeux d'ambiance pour les soirées entre amis."
+},
+{
+"id": "1001hobbies",
+"name": "1001hobbies",
+"domain": "1001hobbies.fr",
+"src": "ex",
+"passions": [
+"jeux",
+"brico-deco"
+],
+"tags": [
+"modélisme",
+"trains miniatures",
+"maquettes"
+],
+"desc": "Modélisme et maquettes : trains électriques miniatures, avions et voitures radiocommandés, maquettes à monter et drones."
+},
+{
+"id": "lasergame",
+"name": "Laser Game Evolution",
+"domain": "lasergame-evolution.com",
+"src": "ex",
+"passions": [
+"jeux",
+"aventure"
+],
+"tags": [
+"laser game",
+"anniversaire",
+"équipe"
+],
+"desc": "Parties de laser game en équipe dans des labyrinthes à thème, idéal pour un anniversaire ou une sortie entre amis."
+},
+{
+"id": "astroshop",
+"name": "Astroshop",
+"domain": "astroshop.fr",
+"src": "ex",
+"passions": [
+"culture",
+"aventure"
+],
+"tags": [
+"télescope",
+"astronomie",
+"jumelles"
+],
+"desc": "Télescopes, lunettes astronomiques, jumelles et cartes du ciel pour observer les planètes, la Lune et les étoiles."
+},
+{
+"id": "toysrus",
+"name": "Toys R Us",
+"domain": "toysrus.fr",
+"src": "ex",
+"passions": [
+"mini-moi",
+"jeux"
+],
+"tags": [
+"jouets",
+"peluches",
+"jeux"
+],
+"desc": "Grande enseigne de jouets : poupées, voitures, jeux de construction, jeux vidéo et jeux de plein air pour enfants."
+},
+{
+"id": "joueclub",
+"name": "JouéClub",
+"domain": "joueclub.fr",
+"src": "ex",
+"passions": [
+"mini-moi",
+"jeux"
+],
+"tags": [
+"jouets",
+"magasin de jouets",
+"conseil"
+],
+"desc": "Magasins de jouets indépendants : jeux d'éveil, figurines, déguisements, jeux de société et jouets en bois."
+},
+{
+"id": "djeco",
+"name": "Djeco",
+"domain": "djeco.com",
+"src": "ex",
+"passions": [
+"mini-moi"
+],
+"tags": [
+"jeux créatifs",
+"puzzles",
+"enfants"
+],
+"desc": "Jouets et loisirs créatifs illustrés pour enfants : puzzles, coloriages, kits de bricolage, jeux de cartes et instruments."
+},
+{
+"id": "moulin-roty",
+"name": "Moulin Roty",
+"domain": "moulinroty.com",
+"src": "ex",
+"passions": [
+"mini-moi",
+"deco"
+],
+"tags": [
+"doudous",
+"chambre enfant",
+"cadeau de naissance"
+],
+"desc": "Doudous, peluches, veilleuses et jouets d'éveil poétiques pour les tout-petits, cadeaux de naissance."
+},
+{
+"id": "dpam",
+"name": "Du Pareil au Même",
+"domain": "dpam.com",
+"src": "ex",
+"passions": [
+"mini-moi"
+],
+"tags": [
+"vêtements enfant",
+"bébé",
+"colorés"
+],
+"desc": "Vêtements pour bébés et enfants jusqu'à 14 ans, imprimés gais et matières douces à petits prix."
+},
+{
+"id": "louvre",
+"name": "Musée du Louvre",
+"domain": "louvre.fr",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"musée",
+"art",
+"exposition"
+],
+"desc": "Billets pour le plus grand musée du monde : Joconde, antiquités égyptiennes, peintures et sculptures, visites guidées."
+},
+{
+"id": "versailles",
+"name": "Château de Versailles",
+"domain": "chateauversailles.fr",
+"src": "ex",
+"passions": [
+"culture",
+"aventure"
+],
+"tags": [
+"château",
+"patrimoine",
+"jardins"
+],
+"desc": "Visite du château, de la galerie des Glaces, des jardins et du domaine de Trianon, grandes eaux musicales et spectacles nocturnes."
+},
+{
+"id": "comedie-francaise",
+"name": "Comédie-Française",
+"domain": "comedie-francaise.fr",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"théâtre",
+"molière",
+"pièces"
+],
+"desc": "Le théâtre de Molière : pièces classiques et contemporaines jouées par la troupe dans ses trois salles parisiennes."
+},
+{
+"id": "philharmonie",
+"name": "Philharmonie de Paris",
+"domain": "philharmoniedeparis.fr",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"concerts",
+"musique classique",
+"jazz"
+],
+"desc": "Concerts symphoniques, jazz et musiques du monde, expositions sur la musique et ateliers pour enfants."
+},
+{
+"id": "ugc",
+"name": "UGC",
+"domain": "ugc.fr",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"cinéma",
+"carte illimitée",
+"films"
+],
+"desc": "Salles de cinéma et carte UGC Illimité pour voir autant de films que l'on veut, en VO ou en VF."
+},
+{
+"id": "mk2",
+"name": "MK2",
+"domain": "mk2.com",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"cinéma d'auteur",
+"films",
+"salles"
+],
+"desc": "Cinémas parisiens et lyonnais : films d'auteur, avant-premières, rencontres avec les réalisateurs et librairies cinéma."
+},
+{
+"id": "disney-plus",
+"name": "Disney+",
+"domain": "disneyplus.com",
+"src": "ex",
+"passions": [
+"culture",
+"mini-moi"
+],
+"tags": [
+"streaming",
+"marvel",
+"pixar"
+],
+"desc": "Streaming des films et séries Disney, Pixar, Marvel, Star Wars et National Geographic pour toute la famille."
+},
+{
+"id": "canal-plus",
+"name": "Canal+",
+"domain": "canalplus.com",
+"src": "ex",
+"passions": [
+"culture",
+"foot"
+],
+"tags": [
+"télévision",
+"sport",
+"films"
+],
+"desc": "Chaînes de télévision payantes : cinéma récent, séries originales, Ligue des champions, Formule 1 et rugby."
+},
+{
+"id": "qobuz",
+"name": "Qobuz",
+"domain": "qobuz.com",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"streaming hi-res",
+"jazz",
+"classique"
+],
+"desc": "Streaming et téléchargement de musique en qualité studio, idéal pour les audiophiles amateurs de jazz et de classique."
+},
+{
+"id": "babbel",
+"name": "Babbel",
+"domain": "babbel.com",
+"src": "ex",
+"passions": [
+"culture",
+"lecture"
+],
+"tags": [
+"langues",
+"anglais",
+"espagnol"
+],
+"desc": "Application pour apprendre une langue étrangère : anglais, espagnol, italien, allemand, en leçons courtes du quotidien."
+},
+{
+"id": "domestika",
+"name": "Domestika",
+"domain": "domestika.org",
+"src": "ex",
+"passions": [
+"culture",
+"deco"
+],
+"tags": [
+"cours en ligne",
+"illustration",
+"créativité"
+],
+"desc": "Cours en ligne créatifs : illustration, photographie, calligraphie, broderie, céramique, montage vidéo, par des professionnels."
+},
+{
+"id": "thomann",
+"name": "Thomann",
+"domain": "thomann.de",
+"src": "ex",
+"passions": [
+"culture"
+],
+"tags": [
+"instruments",
+"guitare",
+"home studio"
+],
+"desc": "Le grand magasin de la musique : guitares, claviers, batteries, micros, platines DJ et matériel de home studio."
+},
+{
+"id": "puy-du-fou",
+"name": "Puy du Fou",
+"domain": "puydufou.com",
+"src": "ex",
+"passions": [
+"culture",
+"aventure",
+"mini-moi"
+],
+"tags": [
+"parc à thème",
+"spectacles",
+"histoire"
+],
+"desc": "Parc à thème historique : grands spectacles, chevaliers, Vikings, gladiateurs et Cinéscénie nocturne en Vendée."
+},
+{
+"id": "disneyland",
+"name": "Disneyland Paris",
+"domain": "disneylandparis.com",
+"src": "ex",
+"passions": [
+"mini-moi",
+"aventure"
+],
+"tags": [
+"parc d'attractions",
+"disney",
+"famille"
+],
+"desc": "Parcs Disney et Walt Disney Studios : attractions, parades, personnages Disney et hôtels pour un séjour magique en famille."
+},
+{
+"id": "parc-asterix",
+"name": "Parc Astérix",
+"domain": "parcasterix.fr",
+"src": "ex",
+"passions": [
+"aventure",
+"mini-moi"
+],
+"tags": [
+"parc d'attractions",
+"montagnes russes",
+"famille"
+],
+"desc": "Parc d'attractions gaulois : montagnes russes à sensations, attractions aquatiques et spectacles, pour petits et grands."
+},
+{
+"id": "futuroscope",
+"name": "Futuroscope",
+"domain": "futuroscope.com",
+"src": "ex",
+"passions": [
+"aventure",
+"mini-moi",
+"culture"
+],
+"tags": [
+"parc",
+"attractions",
+"sciences"
+],
+"desc": "Parc d'attractions et de découvertes : simulateurs, cinémas dynamiques et spectacles nocturnes près de Poitiers."
+},
+{
+"id": "beauval",
+"name": "ZooParc de Beauval",
+"domain": "zoobeauval.com",
+"src": "ex",
+"passions": [
+"animaux",
+"mini-moi"
+],
+"tags": [
+"zoo",
+"pandas",
+"safari"
+],
+"desc": "L'un des plus beaux zoos du monde : pandas géants, gorilles, éléphants, spectacles d'oiseaux et hôtels au cœur du parc."
+},
+{
+"id": "center-parcs",
+"name": "Center Parcs",
+"domain": "centerparcs.fr",
+"src": "ex",
+"passions": [
+"aventure",
+"mini-moi"
+],
+"tags": [
+"séjour",
+"cottage",
+"piscine"
+],
+"desc": "Courts séjours en cottage au cœur de la forêt avec paradis aquatique, activités nature et animations pour les enfants."
+},
+{
+"id": "club-med",
+"name": "Club Med",
+"domain": "clubmed.fr",
+"src": "ex",
+"passions": [
+"aventure",
+"bien-etre"
+],
+"tags": [
+"vacances",
+"tout compris",
+"ski"
+],
+"desc": "Vacances tout compris au soleil ou à la montagne : villages au bord de la mer, stations de ski, sports et clubs enfants."
+},
+{
+"id": "sncf-connect",
+"name": "SNCF Connect",
+"domain": "sncf-connect.com",
+"src": "ex",
+"passions": [
+"aventure"
+],
+"tags": [
+"train",
+"tgv",
+"week-end"
+],
+"desc": "Billets de train TGV INOUI, OUIGO et TER pour partir en week-end ou en vacances partout en France et en Europe."
+},
+{
+"id": "airbnb",
+"name": "Airbnb",
+"domain": "airbnb.fr",
+"src": "ex",
+"passions": [
+"aventure"
+],
+"tags": [
+"location",
+"logement",
+"séjour insolite"
+],
+"desc": "Locations de logements et séjours insolites chez l'habitant : cabanes, roulottes, maisons d'architecte, partout dans le monde."
+},
+{
+"id": "gites-de-france",
+"name": "Gîtes de France",
+"domain": "gites-de-france.com",
+"src": "ex",
+"passions": [
+"aventure",
+"ma-planete"
+],
+"tags": [
+"gîte",
+"chambres d'hôtes",
+"campagne"
+],
+"desc": "Gîtes et chambres d'hôtes à la campagne, au bord de la mer ou à la montagne, labellisés et tenus par des propriétaires locaux."
+},
+{
+"id": "skiset",
+"name": "Skiset",
+"domain": "skiset.com",
+"src": "ex",
+"passions": [
+"aventure"
+],
+"tags": [
+"location de ski",
+"snowboard",
+"station"
+],
+"desc": "Location de skis, snowboards et chaussures dans plus de 600 magasins en station de ski."
+},
+{
+"id": "snowleader",
+"name": "Snowleader",
+"domain": "snowleader.com",
+"src": "ex",
+"passions": [
+"aventure",
+"mode"
+],
+"tags": [
+"ski",
+"vêtements de montagne",
+"doudoune"
+],
+"desc": "Équipement de montagne et de ski : vestes techniques, doudounes, skis de randonnée, chaussures d'alpinisme et masques."
+},
+{
+"id": "glisshop",
+"name": "Glisshop",
+"domain": "glisshop.com",
+"src": "ex",
+"passions": [
+"aventure"
+],
+"tags": [
+"ski",
+"surf",
+"skate"
+],
+"desc": "Sports de glisse : skis, snowboards, planches de surf, skateboards, wakeboards et équipements de protection."
+},
+{
+"id": "rip-curl",
+"name": "Rip Curl",
+"domain": "ripcurl.eu",
+"src": "ex",
+"passions": [
+"aventure",
+"mode"
+],
+"tags": [
+"surf",
+"combinaison",
+"maillot de bain"
+],
+"desc": "Marque de surf : combinaisons néoprène, boardshorts, maillots de bain et montres de surf pour les passionnés de vagues."
+},
+{
+"id": "pacific-peche",
+"name": "Pacific Pêche",
+"domain": "pacific-peche.com",
+"src": "ex",
+"passions": [
+"aventure",
+"ma-planete"
+],
+"tags": [
+"pêche",
+"cannes",
+"leurres"
+],
+"desc": "Magasin spécialisé pêche : cannes, moulinets, leurres, appâts, waders et équipement pour la pêche en rivière, carpe ou mer."
+},
+{
+"id": "subchandlers",
+"name": "Subchandlers",
+"domain": "subchandlers.com",
+"src": "ex",
+"passions": [
+"aventure"
+],
+"tags": [
+"plongée",
+"snorkeling",
+"chasse sous-marine"
+],
+"desc": "Matériel de plongée sous-marine : masques, palmes, combinaisons, ordinateurs de plongée et équipement de chasse sous-marine."
+},
+{
+"id": "arkose",
+"name": "Arkose",
+"domain": "arkose.com",
+"src": "ex",
+"passions": [
+"aventure",
+"bien-etre"
+],
+"tags": [
+"escalade",
+"bloc",
+"restaurant"
+],
+"desc": "Salles d'escalade de bloc avec restaurant, bar et yoga : grimper entre amis puis partager un verre."
+},
+{
+"id": "dafy",
+"name": "Dafy Moto",
+"domain": "dafy-moto.com",
+"src": "ex",
+"passions": [
+"aventure"
+],
+"tags": [
+"moto",
+"casque",
+"blouson"
+],
+"desc": "Équipement du motard : casques, blousons, gants, bottes et accessoires pour moto et scooter."
+},
+{
+"id": "norauto",
+"name": "Norauto",
+"domain": "norauto.fr",
+"src": "ex",
+"passions": [
+"brico-deco",
+"aventure"
+],
+"tags": [
+"auto",
+"entretien",
+"accessoires"
+],
+"desc": "Entretien et accessoires automobiles : pneus, vidange, coffres de toit, porte-vélos, GPS et équipement de la voiture."
+},
+{
+"id": "golf-plus",
+"name": "Golf Plus",
+"domain": "golfplus.fr",
+"src": "ex",
+"passions": [
+"aventure",
+"mode"
+],
+"tags": [
+"golf",
+"clubs",
+"balles"
+],
+"desc": "Spécialiste du golf : clubs, balles, sacs, chariots, chaussures et vêtements de golf, cours et green fees."
+},
+{
+"id": "tennis-point",
+"name": "Tennis-Point",
+"domain": "tennis-point.fr",
+"src": "ex",
+"passions": [
+"badminton"
+],
+"tags": [
+"tennis",
+"padel",
+"raquettes"
+],
+"desc": "Raquettes de tennis et de padel, cordages, balles, chaussures de court et vêtements pour joueurs de club."
+},
+{
+"id": "padd",
+"name": "Padd",
+"domain": "padd.fr",
+"src": "ex",
+"passions": [
+"animaux",
+"aventure"
+],
+"tags": [
+"équitation",
+"cheval",
+"sellerie"
+],
+"desc": "Équitation : bombes, bottes, culottes, selles, tapis et soins pour le cheval, pour cavaliers débutants ou confirmés."
+},
+{
+"id": "i-run",
+"name": "i-Run",
+"domain": "i-run.fr",
+"src": "ex",
+"passions": [
+"running"
+],
+"tags": [
+"running",
+"chaussures",
+"trail"
+],
+"desc": "Spécialiste de la course à pied : chaussures de running et de trail, textile, nutrition et conseils d'experts coureurs."
+},
+{
+"id": "probikeshop",
+"name": "Probikeshop",
+"domain": "probikeshop.fr",
+"src": "ex",
+"passions": [
+"cyclisme"
+],
+"tags": [
+"vélo",
+"vtt",
+"pièces"
+],
+"desc": "Vélos de route, VTT et gravel, pièces détachées, casques et vêtements de cyclisme."
+},
+{
+"id": "rapha",
+"name": "Rapha",
+"domain": "rapha.cc",
+"src": "ex",
+"passions": [
+"cyclisme",
+"mode"
+],
+"tags": [
+"maillot vélo",
+"cuissard",
+"cyclisme route"
+],
+"desc": "Vêtements de cyclisme sur route haut de gamme : maillots, cuissards, vestes de pluie et club de sorties à vélo."
+},
+{
+"id": "cyclable",
+"name": "Cyclable",
+"domain": "cyclable.com",
+"src": "ex",
+"passions": [
+"cyclisme",
+"ma-planete"
+],
+"tags": [
+"vélo électrique",
+"vélo urbain",
+"vélotaf"
+],
+"desc": "Vélos urbains, électriques, pliants et cargos pour aller au travail à vélo, avec atelier et conseils."
+},
+{
+"id": "fitness-park",
+"name": "Fitness Park",
+"domain": "fitnesspark.fr",
+"src": "ex",
+"passions": [
+"bien-etre",
+"running"
+],
+"tags": [
+"salle de sport",
+"musculation",
+"cardio"
+],
+"desc": "Salles de fitness ouvertes 7 jours sur 7 : musculation, cardio, cours collectifs et coaching personnalisé."
+},
+{
+"id": "footkorner",
+"name": "Footkorner",
+"domain": "footkorner.com",
+"src": "ex",
+"passions": [
+"foot",
+"mode"
+],
+"tags": [
+"maillots",
+"crampons",
+"streetwear"
+],
+"desc": "Football et lifestyle : maillots officiels des clubs et sélections, crampons, ballons et sneakers."
+},
+{
+"id": "psg-store",
+"name": "PSG Store",
+"domain": "store.psg.fr",
+"src": "ex",
+"passions": [
+"foot"
+],
+"tags": [
+"paris saint-germain",
+"maillot",
+"supporter"
+],
+"desc": "Boutique officielle du Paris Saint-Germain : maillots floqués, écharpes, ballons et produits pour supporters."
+},
+{
+"id": "le-five",
+"name": "Le Five",
+"domain": "lefive.fr",
+"src": "ex",
+"passions": [
+"foot"
+],
+"tags": [
+"foot à 5",
+"terrain",
+"anniversaire"
+],
+"desc": "Centres de foot à 5 et padel en salle : location de terrain entre amis, tournois et anniversaires."
+},
+{
+"id": "repetto",
+"name": "Repetto",
+"domain": "repetto.fr",
+"src": "ex",
+"passions": [
+"danse",
+"mode"
+],
+"tags": [
+"ballerines",
+"pointes",
+"danse classique"
+],
+"desc": "Maison parisienne de la danse : pointes, demi-pointes, justaucorps et célèbres ballerines de ville."
+},
+{
+"id": "bloch",
+"name": "Bloch",
+"domain": "blochworld.com",
+"src": "ex",
+"passions": [
+"danse"
+],
+"tags": [
+"chaussons",
+"claquettes",
+"tenues de danse"
+],
+"desc": "Chaussures et tenues de danse : pointes, claquettes, chaussons de jazz, sneakers de danse et justaucorps."
+},
+{
+"id": "nespresso",
+"name": "Nespresso",
+"domain": "nespresso.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"café",
+"capsules",
+"machine"
+],
+"desc": "Machines à café et capsules de grands crus du monde entier, accessoires et éditions limitées pour les amateurs d'espresso."
+},
+{
+"id": "kusmi",
+"name": "Kusmi Tea",
+"domain": "kusmitea.com",
+"src": "ex",
+"passions": [
+"saveurs",
+"bien-etre"
+],
+"tags": [
+"thé",
+"infusions",
+"coffrets"
+],
+"desc": "Thés et infusions parfumés, thés détox et coffrets colorés, une maison de thé parisienne."
+},
+{
+"id": "mariage-freres",
+"name": "Mariage Frères",
+"domain": "mariagefreres.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"thé",
+"salon de thé",
+"théières"
+],
+"desc": "Maison de thé française depuis 1854 : des centaines de thés du monde, théières et salons de thé."
+},
+{
+"id": "jeff-de-bruges",
+"name": "Jeff de Bruges",
+"domain": "jeff-de-bruges.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"chocolats",
+"pralinés",
+"coffrets"
+],
+"desc": "Chocolatier : ballotins de chocolats belges, pralinés, truffes et gourmandises pour les fêtes."
+},
+{
+"id": "maison-chocolat",
+"name": "La Maison du Chocolat",
+"domain": "lamaisonduchocolat.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"chocolat",
+"ganaches",
+"macarons"
+],
+"desc": "Chocolatier parisien d'exception : ganaches, pralinés, macarons et coffrets de chocolats fins."
+},
+{
+"id": "laduree",
+"name": "Ladurée",
+"domain": "laduree.fr",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"macarons",
+"pâtisserie",
+"salon de thé"
+],
+"desc": "Pâtisserie parisienne célèbre pour ses macarons, salons de thé et coffrets gourmands."
+},
+{
+"id": "grande-epicerie",
+"name": "La Grande Épicerie de Paris",
+"domain": "lagrandeepicerie.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"épicerie fine",
+"produits rares",
+"gourmet"
+],
+"desc": "Épicerie fine d'exception : produits du monde entier, fromages, caviar, vins et coffrets gourmands."
+},
+{
+"id": "comptoir-irlandais",
+"name": "Comptoir Irlandais",
+"domain": "comptoir-irlandais.com",
+"src": "ex",
+"passions": [
+"saveurs",
+"mode"
+],
+"tags": [
+"whisky",
+"bière",
+"pulls"
+],
+"desc": "Whiskies écossais et irlandais, bières, thés et épicerie des îles britanniques, plus des pulls en laine."
+},
+{
+"id": "v-and-b",
+"name": "V and B",
+"domain": "vandb.fr",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"cave",
+"bière",
+"bar"
+],
+"desc": "Cave et bar : vins, bières artisanales, whiskies et rhums, à déguster sur place ou à emporter."
+},
+{
+"id": "saveur-biere",
+"name": "Saveur Bière",
+"domain": "saveur-biere.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"bières artisanales",
+"box",
+"brasseries"
+],
+"desc": "Bières artisanales du monde entier, box de dégustation mensuelles, verres et tireuses à bière."
+},
+{
+"id": "vinatis",
+"name": "Vinatis",
+"domain": "vinatis.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"vins",
+"grands crus",
+"caviste en ligne"
+],
+"desc": "Caviste en ligne : vins de Bordeaux, Bourgogne, Champagne et vins du monde, grands crus et primeurs."
+},
+{
+"id": "androuet",
+"name": "Androuet",
+"domain": "androuet.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"fromages",
+"affineur",
+"plateaux"
+],
+"desc": "Fromager affineur parisien : fromages fermiers au lait cru, plateaux pour raclette et fondue, coffrets."
+},
+{
+"id": "picard",
+"name": "Picard",
+"domain": "picard.fr",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"surgelés",
+"plats",
+"desserts"
+],
+"desc": "Surgelés de qualité : plats cuisinés, apéritifs, poissons, légumes et desserts glacés pour régaler sans cuisiner."
+},
+{
+"id": "big-mamma",
+"name": "Big Mamma",
+"domain": "bigmammagroup.com",
+"src": "ex",
+"passions": [
+"saveurs"
+],
+"tags": [
+"restaurant italien",
+"pizza",
+"trattoria"
+],
+"desc": "Trattorias italiennes festives : pizzas napolitaines, pâtes fraîches, burrata et tiramisu dans des décors spectaculaires."
+},
+{
+"id": "le-creuset",
+"name": "Le Creuset",
+"domain": "lecreuset.fr",
+"src": "ex",
+"passions": [
+"saveurs",
+"deco"
+],
+"tags": [
+"cocotte",
+"fonte",
+"cuisine"
+],
+"desc": "Cocottes en fonte émaillée colorées, poêles et plats à four pour mijoter de bons petits plats."
+},
+{
+"id": "weber",
+"name": "Weber",
+"domain": "weber.com",
+"src": "ex",
+"passions": [
+"saveurs",
+"brico-deco"
+],
+"tags": [
+"barbecue",
+"plancha",
+"grillades"
+],
+"desc": "Barbecues au charbon, à gaz et électriques, planchas et accessoires pour les grillades en été."
+},
+{
+"id": "sezane",
+"name": "Sézane",
+"domain": "sezane.com",
+"src": "ex",
+"passions": [
+"mode"
+],
+"tags": [
+"mode femme",
+"parisienne",
+"créatrice"
+],
+"desc": "Marque parisienne de prêt-à-porter féminin : blouses, pulls, robes et accessoires au style intemporel."
+},
+{
+"id": "uniqlo",
+"name": "Uniqlo",
+"domain": "uniqlo.com",
+"src": "ex",
+"passions": [
+"mode"
+],
+"tags": [
+"basiques",
+"doudoune légère",
+"heattech"
+],
+"desc": "Basiques de qualité pour femme, homme et enfant : t-shirts, polaires, doudounes légères et vêtements techniques."
+},
+{
+"id": "levis",
+"name": "Levi's",
+"domain": "levi.com",
+"src": "ex",
+"passions": [
+"mode"
+],
+"tags": [
+"jean",
+"denim",
+"vestes"
+],
+"desc": "Le jean original : 501, jeans ajustés, vestes en denim et t-shirts, personnalisation en boutique."
+},
+{
+"id": "slip-francais",
+"name": "Le Slip Français",
+"domain": "leslipfrancais.fr",
+"src": "ex",
+"passions": [
+"mode",
+"ma-planete"
+],
+"tags": [
+"made in france",
+"sous-vêtements",
+"pulls"
+],
+"desc": "Sous-vêtements, pulls et vêtements fabriqués en France, avec une touche d'humour."
+},
+{
+"id": "lacoste",
+"name": "Lacoste",
+"domain": "lacoste.com",
+"src": "ex",
+"passions": [
+"mode"
+],
+"tags": [
+"polo",
+"tennis",
+"sportswear chic"
+],
+"desc": "Le polo au crocodile, vêtements sportswear chic, sneakers et maroquinerie inspirés du tennis."
+},
+{
+"id": "longchamp",
+"name": "Longchamp",
+"domain": "longchamp.com",
+"src": "ex",
+"passions": [
+"mode",
+"bijoux"
+],
+"tags": [
+"sacs",
+"maroquinerie",
+"pliage"
+],
+"desc": "Maroquinerie française : sacs Le Pliage, sacs en cuir, petite maroquinerie et bagages."
+},
+{
+"id": "etam",
+"name": "Etam",
+"domain": "etam.com",
+"src": "ex",
+"passions": [
+"mode"
+],
+"tags": [
+"lingerie",
+"pyjamas",
+"maillots de bain"
+],
+"desc": "Lingerie, pyjamas, homewear et maillots de bain pour femme."
+},
+{
+"id": "aigle",
+"name": "Aigle",
+"domain": "aigle.com",
+"src": "ex",
+"passions": [
+"mode",
+"aventure"
+],
+"tags": [
+"bottes",
+"imperméables",
+"outdoor"
+],
+"desc": "Bottes en caoutchouc, vestes imperméables et vêtements outdoor pour la campagne, la pêche et la randonnée."
+},
+{
+"id": "optic-2000",
+"name": "Optic 2000",
+"domain": "optic2000.com",
+"src": "ex",
+"passions": [
+"mode"
+],
+"tags": [
+"lunettes",
+"solaires",
+"opticien"
+],
+"desc": "Opticien : lunettes de vue, lunettes de soleil de marque, lentilles et examen de la vue."
+},
+{
+"id": "lip",
+"name": "Lip",
+"domain": "lip.fr",
+"src": "ex",
+"passions": [
+"bijoux",
+"mode"
+],
+"tags": [
+"montres",
+"made in france",
+"horlogerie"
+],
+"desc": "Montres françaises depuis 1867 : modèles vintage, montres automatiques et chronographes."
+},
+{
+"id": "daniel-wellington",
+"name": "Daniel Wellington",
+"domain": "danielwellington.com",
+"src": "ex",
+"passions": [
+"bijoux"
+],
+"tags": [
+"montres",
+"bracelets",
+"minimaliste"
+],
+"desc": "Montres minimalistes et bijoux élégants pour femme et homme, bracelets interchangeables."
+},
+{
+"id": "agatha",
+"name": "Agatha",
+"domain": "agatha.fr",
+"src": "ex",
+"passions": [
+"bijoux"
+],
+"tags": [
+"bijoux",
+"scottie",
+"charms"
+],
+"desc": "Bijoux parisiens au petit chien Scottie : colliers, bracelets, bagues et boucles d'oreilles en argent."
+},
+{
+"id": "nereides",
+"name": "Les Néréides",
+"domain": "lesnereides.com",
+"src": "ex",
+"passions": [
+"bijoux"
+],
+"tags": [
+"bijoux fantaisie",
+"poétique",
+"fleurs"
+],
+"desc": "Bijoux fantaisie poétiques peints à la main : fleurs, oiseaux et animaux en émail."
+},
+{
+"id": "aroma-zone",
+"name": "Aroma-Zone",
+"domain": "aroma-zone.com",
+"src": "ex",
+"passions": [
+"beaute",
+"bien-etre",
+"ma-planete"
+],
+"tags": [
+"huiles essentielles",
+"cosmétique maison",
+"diy"
+],
+"desc": "Huiles essentielles, ingrédients naturels et recettes pour fabriquer ses cosmétiques maison."
+},
+{
+"id": "loccitane",
+"name": "L'Occitane en Provence",
+"domain": "loccitane.com",
+"src": "ex",
+"passions": [
+"beaute",
+"bien-etre"
+],
+"tags": [
+"soins",
+"karité",
+"provence"
+],
+"desc": "Cosmétiques inspirés de la Provence : crèmes mains au karité, parfums, soins visage et coffrets cadeaux."
+},
+{
+"id": "kiko",
+"name": "Kiko Milano",
+"domain": "kikocosmetics.com",
+"src": "ex",
+"passions": [
+"beaute"
+],
+"tags": [
+"maquillage",
+"rouges à lèvres",
+"palettes"
+],
+"desc": "Maquillage italien à prix doux : rouges à lèvres, palettes de fards, vernis et nouveautés à chaque saison."
+},
+{
+"id": "typology",
+"name": "Typology",
+"domain": "typology.com",
+"src": "ex",
+"passions": [
+"beaute",
+"ma-planete"
+],
+"tags": [
+"skincare",
+"sérums",
+"clean beauty"
+],
+"desc": "Soins de la peau minimalistes et naturels : sérums, crèmes et diagnostic de peau en ligne."
+},
+{
+"id": "diptyque",
+"name": "Diptyque",
+"domain": "diptyqueparis.com",
+"src": "ex",
+"passions": [
+"beaute",
+"deco"
+],
+"tags": [
+"bougies",
+"parfums",
+"luxe"
+],
+"desc": "Maison parisienne de bougies parfumées, eaux de toilette et parfums d'intérieur raffinés."
+},
+{
+"id": "dessange",
+"name": "Dessange",
+"domain": "dessange.com",
+"src": "ex",
+"passions": [
+"beaute"
+],
+"tags": [
+"coiffeur",
+"coloration",
+"salon"
+],
+"desc": "Salons de coiffure : coupes, colorations, balayages et soins capillaires par des coiffeurs experts."
+},
+{
+"id": "deep-nature",
+"name": "Deep Nature",
+"domain": "deepnature.fr",
+"src": "ex",
+"passions": [
+"bien-etre"
+],
+"tags": [
+"spa",
+"hammam",
+"modelage"
+],
+"desc": "Spas en montagne, au bord de la mer et en ville : modelages, soins du visage, hammam et bassins de détente."
+},
+{
+"id": "thalazur",
+"name": "Thalazur",
+"domain": "thalazur.fr",
+"src": "ex",
+"passions": [
+"bien-etre"
+],
+"tags": [
+"thalasso",
+"cure",
+"bord de mer"
+],
+"desc": "Thalassothérapie et spas marins en bord de mer : cures, soins à l'eau de mer et séjours détente."
+},
+{
+"id": "petit-bambou",
+"name": "Petit Bambou",
+"domain": "petitbambou.com",
+"src": "ex",
+"passions": [
+"bien-etre"
+],
+"tags": [
+"méditation",
+"sommeil",
+"stress"
+],
+"desc": "Application de méditation guidée pour apprendre à gérer son stress, mieux dormir et respirer."
+},
+{
+"id": "habitat",
+"name": "Habitat",
+"domain": "habitat.fr",
+"src": "ex",
+"passions": [
+"deco"
+],
+"tags": [
+"design",
+"mobilier",
+"luminaires"
+],
+"desc": "Mobilier et décoration design : canapés, tables, luminaires et objets pour une maison contemporaine."
+},
+{
+"id": "zara-home",
+"name": "Zara Home",
+"domain": "zarahome.com",
+"src": "ex",
+"passions": [
+"deco"
+],
+"tags": [
+"linge de maison",
+"vaisselle",
+"bougies"
+],
+"desc": "Linge de lit, vaisselle, bougies et objets de décoration tendance pour la maison."
+},
+{
+"id": "sostrene",
+"name": "Søstrene Grene",
+"domain": "sostrenegrene.com",
+"src": "ex",
+"passions": [
+"deco"
+],
+"tags": [
+"déco scandinave",
+"loisirs créatifs",
+"petits prix"
+],
+"desc": "Boutique danoise de déco, vaisselle, papeterie et loisirs créatifs à petits prix."
+},
+{
+"id": "flying-tiger",
+"name": "Flying Tiger Copenhagen",
+"domain": "flyingtiger.com",
+"src": "ex",
+"passions": [
+"deco",
+"jeux"
+],
+"tags": [
+"gadgets",
+"fête",
+"petits prix"
+],
+"desc": "Objets amusants et petits prix : gadgets, déco de fête, jeux, cuisine et loisirs créatifs."
+},
+{
+"id": "bergamotte",
+"name": "Bergamotte",
+"domain": "bergamotte.fr",
+"src": "ex",
+"passions": [
+"deco",
+"brico-deco"
+],
+"tags": [
+"plantes d'intérieur",
+"bouquets",
+"livraison"
+],
+"desc": "Plantes d'intérieur et bouquets de fleurs livrés à domicile, avec cache-pots et conseils d'entretien."
+},
+{
+"id": "emma",
+"name": "Emma",
+"domain": "emma-matelas.fr",
+"src": "ex",
+"passions": [
+"deco",
+"bien-etre"
+],
+"tags": [
+"matelas",
+"oreillers",
+"sommeil"
+],
+"desc": "Matelas, oreillers et linge de lit pour mieux dormir, testés 100 nuits à la maison."
+},
+{
+"id": "manomano",
+"name": "ManoMano",
+"domain": "manomano.fr",
+"src": "ex",
+"passions": [
+"brico-deco"
+],
+"tags": [
+"bricolage",
+"jardin",
+"outillage"
+],
+"desc": "Bricolage, jardinage et maison en ligne : outillage électroportatif, quincaillerie, salle de bains et mobilier de jardin."
+},
+{
+"id": "brico-depot",
+"name": "Brico Dépôt",
+"domain": "bricodepot.fr",
+"src": "ex",
+"passions": [
+"brico-deco"
+],
+"tags": [
+"matériaux",
+"gros œuvre",
+"prix"
+],
+"desc": "Matériaux et outillage à prix dépôt pour les gros travaux : isolation, plâtre, carrelage, menuiserie."
+},
+{
+"id": "gamm-vert",
+"name": "Gamm vert",
+"domain": "gammvert.fr",
+"src": "ex",
+"passions": [
+"brico-deco",
+"animaux",
+"ma-planete"
+],
+"tags": [
+"jardinerie",
+"potager",
+"poules"
+],
+"desc": "Jardineries de proximité : plants potagers, arbres fruitiers, poulaillers, outils de jardin et produits du terroir."
+},
+{
+"id": "husqvarna",
+"name": "Husqvarna",
+"domain": "husqvarna.com",
+"src": "ex",
+"passions": [
+"brico-deco"
+],
+"tags": [
+"tondeuse",
+"tronçonneuse",
+"robot"
+],
+"desc": "Tondeuses, robots tondeuses, tronçonneuses et taille-haies pour entretenir son jardin."
+},
+{
+"id": "mondial-tissus",
+"name": "Mondial Tissus",
+"domain": "mondialtissus.fr",
+"src": "ex",
+"passions": [
+"deco"
+],
+"tags": [
+"tissus",
+"couture",
+"mercerie"
+],
+"desc": "Tissus au mètre, mercerie, patrons et machines à coudre pour la couture et la décoration."
+},
+{
+"id": "phildar",
+"name": "Phildar",
+"domain": "phildar.fr",
+"src": "ex",
+"passions": [
+"deco"
+],
+"tags": [
+"laine",
+"tricot",
+"crochet"
+],
+"desc": "Laines, aiguilles, crochets et modèles pour tricoter pulls, écharpes et layette."
+},
+{
+"id": "rougier-ple",
+"name": "Rougier & Plé",
+"domain": "rougier-ple.fr",
+"src": "ex",
+"passions": [
+"deco",
+"culture"
+],
+"tags": [
+"beaux-arts",
+"peinture",
+"dessin"
+],
+"desc": "Beaux-arts et loisirs créatifs : peinture à l'huile et aquarelle, toiles, pinceaux, carnets de croquis et modelage."
+},
+{
+"id": "mollat",
+"name": "Librairie Mollat",
+"domain": "mollat.com",
+"src": "ex",
+"passions": [
+"lecture"
+],
+"tags": [
+"librairie indépendante",
+"romans",
+"rencontres"
+],
+"desc": "Grande librairie indépendante de Bordeaux : romans, essais, beaux livres, polars et conseils des libraires."
+},
+{
+"id": "decitre",
+"name": "Decitre",
+"domain": "decitre.fr",
+"src": "ex",
+"passions": [
+"lecture"
+],
+"tags": [
+"librairie",
+"livres",
+"ebooks"
+],
+"desc": "Librairie lyonnaise en ligne et en magasin : livres, e-books, BD, scolaire et papeterie."
+},
+{
+"id": "album-comics",
+"name": "Album Comics",
+"domain": "albumcomics.com",
+"src": "ex",
+"passions": [
+"lecture",
+"jeux"
+],
+"tags": [
+"comics",
+"marvel",
+"figurines"
+],
+"desc": "Librairie spécialisée comics et BD : Marvel, DC, mangas, figurines et produits dérivés."
+},
+{
+"id": "le-monde",
+"name": "Le Monde",
+"domain": "lemonde.fr",
+"src": "ex",
+"passions": [
+"lecture",
+"culture"
+],
+"tags": [
+"journal",
+"abonnement",
+"actualité"
+],
+"desc": "Abonnement au quotidien : actualité internationale, enquêtes, culture et suppléments du week-end."
+},
+{
+"id": "animalis",
+"name": "Animalis",
+"domain": "animalis.com",
+"src": "ex",
+"passions": [
+"animaux"
+],
+"tags": [
+"animalerie",
+"aquarium",
+"rongeurs"
+],
+"desc": "Animaleries : chiens, chats, rongeurs, oiseaux, aquariums et poissons, avec conseils et toilettage."
+},
+{
+"id": "maxi-zoo",
+"name": "Maxi Zoo",
+"domain": "maxizoo.fr",
+"src": "ex",
+"passions": [
+"animaux"
+],
+"tags": [
+"animalerie",
+"croquettes",
+"accessoires"
+],
+"desc": "Animaleries : alimentation, litières, jouets et accessoires pour chiens, chats et petits animaux."
+},
+{
+"id": "ultra-premium",
+"name": "Ultra Premium Direct",
+"domain": "ultrapremiumdirect.com",
+"src": "ex",
+"passions": [
+"animaux"
+],
+"tags": [
+"croquettes",
+"sans céréales",
+"livraison"
+],
+"desc": "Croquettes et pâtées premium sans céréales livrées à domicile, adaptées à l'âge et à la race de l'animal."
+},
+{
+"id": "animaute",
+"name": "Animaute",
+"domain": "animaute.fr",
+"src": "ex",
+"passions": [
+"animaux"
+],
+"tags": [
+"garde",
+"pet-sitting",
+"promenade"
+],
+"desc": "Garde d'animaux entre particuliers : pet-sitters pour promener le chien ou nourrir le chat pendant les vacances."
+},
+{
+"id": "biocoop",
+"name": "Biocoop",
+"domain": "biocoop.fr",
+"src": "ex",
+"passions": [
+"ma-planete",
+"saveurs"
+],
+"tags": [
+"bio",
+"vrac",
+"coopérative"
+],
+"desc": "Réseau de magasins bio coopératifs : produits locaux et de saison, vrac, commerce équitable."
+},
+{
+"id": "ruche",
+"name": "La Ruche qui dit Oui !",
+"domain": "laruchequiditoui.fr",
+"src": "ex",
+"passions": [
+"ma-planete",
+"saveurs"
+],
+"tags": [
+"producteurs locaux",
+"circuit court",
+"marché"
+],
+"desc": "Commander en ligne les produits des producteurs locaux et les retirer chaque semaine près de chez soi."
+},
+{
+"id": "too-good-to-go",
+"name": "Too Good To Go",
+"domain": "toogoodtogo.com",
+"src": "ex",
+"passions": [
+"ma-planete",
+"saveurs"
+],
+"tags": [
+"anti-gaspillage",
+"paniers",
+"invendus"
+],
+"desc": "Application anti-gaspillage : paniers surprises d'invendus de boulangeries, restaurants et commerces à petit prix."
+},
+{
+"id": "1083",
+"name": "1083",
+"domain": "1083.fr",
+"src": "ex",
+"passions": [
+"ma-planete",
+"mode"
+],
+"tags": [
+"jean made in france",
+"denim",
+"éco-conçu"
+],
+"desc": "Jeans et chaussures fabriqués en France à moins de 1083 km de chez vous, en coton bio et recyclé."
+},
+{
+"id": "loom",
+"name": "Loom",
+"domain": "loom.fr",
+"src": "ex",
+"passions": [
+"ma-planete",
+"mode"
+],
+"tags": [
+"vêtements durables",
+"basiques",
+"fabriqué en europe"
+],
+"desc": "Vêtements masculins durables et fabriqués en Europe : t-shirts, pulls, chaussettes conçus pour durer."
+},
+{
+"id": "lamazuna",
+"name": "Lamazuna",
+"domain": "lamazuna.com",
+"src": "ex",
+"passions": [
+"ma-planete",
+"beaute"
+],
+"tags": [
+"zéro déchet",
+"cosmétiques solides",
+"réutilisable"
+],
+"desc": "Cosmétiques solides et accessoires zéro déchet : shampooings, déodorants, cotons lavables."
+},
+{
+"id": "fairphone",
+"name": "Fairphone",
+"domain": "fairphone.com",
+"src": "ex",
+"passions": [
+"ma-planete"
+],
+"tags": [
+"smartphone éthique",
+"réparable",
+"durable"
+],
+"desc": "Smartphones éthiques et réparables, conçus pour durer, avec des matériaux équitables et recyclés."
+},
+{
+"id": "label-emmaus",
+"name": "Label Emmaüs",
+"domain": "label-emmaus.co",
+"src": "ex",
+"passions": [
+"ma-planete",
+"lecture",
+"deco"
+],
+"tags": [
+"seconde main",
+"solidaire",
+"occasion"
+],
+"desc": "Boutique en ligne solidaire de seconde main : livres, vinyles, meubles, vêtements et objets vintage."
+}
+]
