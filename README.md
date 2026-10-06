@@ -45,21 +45,27 @@ calculé une fois par modèle puis mis en cache (localStorage). Le dernier modè
 
 ## Modèles disponibles
 
-| Modèle | Sortie | Dépôt / API | Paramètres | Poids (q8) | Dim. | MTEB retrieval* | Licence |
+| Modèle | Sortie | Dépôt / API | Paramètres | Poids** | Dim. | MTEB retrieval* | Licence |
 |---|---|---|---|---|---|---|---|
-| **E5 Small** (défaut) | juin 2023 | `Xenova/multilingual-e5-small` | 118 M | ≈ 118 Mo | 384 | 50,9 | MIT |
+| **MiniLM L12 multilingue** (défaut) | 2021 | `Xenova/paraphrase-multilingual-MiniLM-L12-v2` | 118 M | ≈ 118 Mo | 384 | — | Apache 2.0 |
+| **E5 Small** | juin 2023 | `Xenova/multilingual-e5-small` | 118 M | ≈ 118 Mo | 384 | 50,9 | MIT |
 | **E5 Base** | juin 2023 | `Xenova/multilingual-e5-base` | 278 M | ≈ 279 Mo | 768 | 52,7 | MIT |
 | **EmbeddingGemma** | sept. 2025 | `onnx-community/embeddinggemma-300m-ONNX` | 308 M | ≈ 309 Mo | 768 | 62,5 | Gemma |
 | **Granite 97M R2** (IBM) | mai 2026 | `onnx-community/granite-embedding-97m-multilingual-r2-ONNX` | 97 M | ≈ 98 Mo | 384 | 60,3 | Apache 2.0 |
 | **Granite 311M R2** (IBM) | mai 2026 | `onnx-community/granite-embedding-311m-multilingual-r2-ONNX` | 311 M | ≈ 313 Mo | 768 | 65,2 | Apache 2.0 |
-| **Harrier 270M** (Microsoft) | mars 2026 | `onnx-community/harrier-oss-v1-270m-ONNX` | 270 M | ≈ 344 Mo | 640 | 66,4 | MIT |
+| **Harrier 270M** (Microsoft) | mars 2026 | `onnx-community/harrier-oss-v1-270m-ONNX` | 270 M | ≈ 553 Mo (fp16) | 640 | 66,4 | MIT |
 | **Gemini Embedding** (API) | juil. 2025 | `gemini-embedding-001` | non publié | 0 Mo | 768 | — | API Google |
 | **Gemini Embedding 2** (API) | mars 2026 | `gemini-embedding-2` | non publié | 0 Mo | 768 | — | API Google |
 
 \* Score public MTEB Multilingual Retrieval (18 tâches), d'après le tableau comparatif d'IBM (mai 2026). Indicatif : le
-benchmark du POC sur le catalogue gift.cool reste la référence. Ce score est aussi affiché dans le comparateur.
+benchmark du POC sur le catalogue gift.cool reste la référence. Ce score est aussi affiché dans le comparateur. Pas de
+score publié pour MiniLM L12 dans ce tableau.
 
-`intfloat/e5-base-v2` n'a pas été retenu : il ne fonctionne qu'en anglais.
+\*\* Version quantifiée `q8`, sauf Harrier en `fp16` : ses versions `q8`, `q4` et `q4f16` utilisent l'opérateur
+`GatherBlockQuantized`, absent du runtime WebAssembly d'onnxruntime (échec « Can't create a session »).
+
+`intfloat/e5-base-v2` et `sentence-transformers/all-MiniLM-L6-v2` n'ont pas été retenus : ils ne fonctionnent qu'en
+anglais. MiniLM L12 multilingue est la version multilingue de la même famille (pooling `mean`, aucun préfixe).
 
 Réglages spécifiques : Granite R2 utilise le pooling **CLS** et aucun préfixe ; Harrier fonctionne comme
 EmbeddingGemma (sortie `sentence_embedding`) avec une instruction en tête de chaque requête
@@ -67,13 +73,54 @@ EmbeddingGemma (sortie `sentence_embedding`) avec une instruction en tête de ch
 
 Un seul modèle est gardé en mémoire à la fois : en changer libère le précédent. Les modèles plus gros sont plus longs
 à télécharger et à indexer. Les index calculés sont gardés dans **IndexedDB** (localStorage, limité à ~5 Mo, ne suffisait
-plus pour 8 modèles ; les anciens index y sont migrés automatiquement). Le test « Le match » charge chaque modèle
+plus pour 9 modèles ; les anciens index y sont migrés automatiquement). Le test « Le match » charge chaque modèle
 coché à tour de rôle, puis revient au modèle choisi dans la barre de recherche.
 
 **Ajouter un modèle** : un objet de plus dans `js/models.js` (dépôt, dtype, `pooling`, préfixes requête/document,
 date de sortie `released`, score `mteb`, couleur ; `provider: 'gemini-api'` et `apiModel` pour un modèle Gemini).
 Les modèles « sentence-transformers » classiques utilisent `mode: 'pipeline'` ; EmbeddingGemma et Harrier
 utilisent `mode: 'sentence_embedding'`.
+
+### Résultats du « Match » (octobre 2026)
+
+Test sur les 30 demandes clients, Chromium sur Mac Apple Silicon, WebAssembly (`?device=wasm`). E5 Base et les modèles
+Gemini n'ont pas été mesurés dans cette série. Les temps dépendent de l'appareil, les pourcentages non.
+
+| Moteur | Bon univers du 1er coup | Enseignes pertinentes (top 3) | Médiane par recherche | p95 | Indexation (279 textes) | Poids |
+|---|---|---|---|---|---|---|
+| Mots-clés | 70 % | 59 % | 0,2 ms | 0,4 ms | 3 ms | 0 Mo |
+| **MiniLM L12 multilingue** (défaut) | 80 % | 70 % | **20 ms** | 37 ms | 22 s | ≈ 118 Mo |
+| E5 Small | 73 % | 68 % | 26 ms | 38 ms | 23 s | ≈ 118 Mo |
+| Granite 97M R2 | 60 % | 62 % | 26 ms | 48 ms | 30 s | ≈ 98 Mo |
+| Granite 311M R2 | 90 % | 81 % | 83 ms | 130 ms | 1 min 35 s | ≈ 313 Mo |
+| Harrier 270M (fp16) | 83 % | 72 % | 194 ms | 289 ms | 1 min 30 s | ≈ 553 Mo |
+| **EmbeddingGemma** | **100 %** | **87 %** | 192 ms | 325 ms | 1 min 52 s | ≈ 309 Mo |
+
+- **MiniLM L12 multilingue** est le modèle par défaut : le plus rapide et le plus léger des modèles qui battent les
+  mots-clés, devant E5 Small à poids égal.
+- **EmbeddingGemma** est le plus pertinent (100 % de bon univers), mais il est 10 fois plus lent par recherche et ses
+  vecteurs mettent près de 2 minutes à se calculer dans le navigateur (à pré-calculer côté serveur en production).
+- **Granite 311M R2** est le meilleur compromis parmi les gros modèles (90 %, 83 ms).
+- Les scores MTEB publics ne prédisent pas ce classement : Harrier (66,4) et Granite 97M (60,3) font moins bien
+  que MiniLM, qui n'a pas de score publié.
+
+#### Testé puis écarté : F2LLM v2 330M
+
+[`codefuse-ai/F2LLM-v2-330M`](https://huggingface.co/codefuse-ai/F2LLM-v2-330M) (Ant Group / CodeFuse, mars 2026,
+334 M paramètres, 896 dim., Apache 2.0) est très bien classé sur MTEB en français (66,0), mais n'existe qu'en poids
+PyTorch : aucune version ONNX publiée pour transformers.js. Il a été converti en local pour ce test, puis écarté.
+
+| Moteur | Bon univers du 1er coup | Enseignes pertinentes (top 3) | Médiane par recherche | p95 | Indexation (279 textes) | Poids |
+|---|---|---|---|---|---|---|
+| F2LLM v2 330M (8 bits) | 80 % | 78 % | 1,0 s | 1,7 s | 5 min 28 s | ≈ 360 Mo |
+
+- Pertinence entre MiniLM et Granite 311M R2, mais **50 fois plus lent que MiniLM** et 5 fois plus lent
+  qu'EmbeddingGemma, à taille comparable.
+- La quantification int8 classique dégrade nettement ses vecteurs ; la variante précise (poids `MatMulNBits` 8 bits,
+  embeddings int8) est lente en WebAssembly, et la version fp32 (1,3 Go) fait planter l'onglet.
+- L'utiliser demanderait aussi de publier la conversion sur le Hub (le site ne charge que des modèles du Hub). Pour
+  ce modèle : pooling sur le dernier jeton (EOS `<|im_end|>`, tokenizer complété à gauche), instruction
+  `Instruct: … \nQuery: ` côté requête seulement.
 
 ### Modèles API (Gemini Embedding)
 
@@ -140,10 +187,11 @@ la description de la carte et la force des 3 meilleures enseignes de l'univers.
 
 | Paramètre | Défaut | Exemple |
 |---|---|---|
-| `model` | dernier choisi, sinon `e5-small` | `?model=e5-base`, `?model=gemma` (lien direct vers un modèle) |
+| `model` | dernier choisi, sinon `minilm-multi` | `?model=e5-base`, `?model=gemma` (lien direct vers un modèle) |
 | `device` | `wasm` | `?device=webgpu` (GPU, navigateurs compatibles ; plus rapide pour les gros modèles) |
 
-La quantification (`dtype`) se règle par modèle dans `js/models.js` (`q8` par défaut ; `q4` possible pour EmbeddingGemma, ≈ 197 Mo).
+La quantification (`dtype`) se règle par modèle dans `js/models.js` (`q8` par défaut ; `q4` possible pour EmbeddingGemma,
+≈ 197 Mo ; `fp16` obligatoire pour Harrier en WebAssembly).
 
 ## Remplacer le catalogue
 

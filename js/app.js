@@ -1,6 +1,6 @@
 import { KeywordIndex, tokenize } from './keyword.js';
 import { SemanticEngine, DEVICE, initialModelId } from './semantic.js';
-import { MODELS, MODEL_BY_ID, isApi, releaseLabel, releaseYear } from './models.js';
+import { MODELS, MODEL_BY_ID, DEFAULT_MODEL, isApi, releaseLabel, releaseYear } from './models.js';
 import { getGeminiKey, setGeminiKey, getGeminiTier, setGeminiTier, TIERS } from './gemini.js';
 
 const $ = (s) => document.querySelector(s);
@@ -201,7 +201,7 @@ function askKey() {
     $('#key-cancel').onclick = () => done(false);
     $('#key-forget').onclick = () => {
       setGeminiKey('');
-      if (isApi(MODEL_BY_ID[state.userModel])) selectModel('e5-small');
+      if (isApi(MODEL_BY_ID[state.userModel])) selectModel(DEFAULT_MODEL);
       done(false);
     };
     dlg.oncancel = (e) => { e.preventDefault(); done(false); };
@@ -644,7 +644,7 @@ const nGc = enseignes.filter((e) => e.src === 'gc').length;
 $('#foot-catalog').textContent = `Catalogue de démonstration : ${enseignes.length} enseignes, dont ${nGc} citées sur les pages des cartes passion gift.cool et ${enseignes.length - nGc} ajoutées pour l'illustration.`;
 $('#kw-list').innerHTML = '<div class="placeholder">Tapez une recherche ou choisissez un exemple ci-dessus.</div>';
 $('#ai-list').innerHTML = '<div class="placeholder">Tapez une recherche ou choisissez un exemple ci-dessus.</div>';
-if (isApi(MODEL_BY_ID[state.userModel]) && !getGeminiKey()) state.userModel = 'e5-small';
+if (isApi(MODEL_BY_ID[state.userModel]) && !getGeminiKey()) state.userModel = DEFAULT_MODEL;
 renderPicker();
 renderTiles();
 renderBenchModels();

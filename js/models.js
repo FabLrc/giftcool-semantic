@@ -5,6 +5,22 @@
 // `released` : date de sortie publique (AAAA-MM). `mteb` : score MTEB Multilingual Retrieval publié (indicatif).
 export const MODELS = [
   {
+    id: 'minilm-multi',
+    repo: 'Xenova/paraphrase-multilingual-MiniLM-L12-v2',
+    label: 'MiniLM L12 multilingue',
+    vendor: 'sentence-transformers · 50+ langues',
+    released: '2021-04',  // approximatif (sentence-transformers 1.x)
+    tagline: 'Modèle par défaut : rapide, léger, meilleur que E5 Small ici',
+    params: '118 M',
+    sizeMb: 118,
+    dims: 384,
+    dtype: 'q8',
+    mode: 'pipeline',     // pooling mean, pas de préfixe
+    query: '',
+    passage: '',
+    color: '#C08A00',
+  },
+  {
     id: 'e5-small',
     repo: 'Xenova/multilingual-e5-small',
     label: 'E5 Small',
@@ -99,9 +115,9 @@ export const MODELS = [
     released: '2026-03',
     tagline: 'Le plus précis de sa taille (MTEB)',
     params: '270 M',
-    sizeMb: 344,
+    sizeMb: 553,
     dims: 640,
-    dtype: 'q8',          // 'q4' (~205 Mo) possible
+    dtype: 'fp16',        // q8, q4 et q4f16 utilisent GatherBlockQuantized, absent du runtime WASM
     mode: 'sentence_embedding',   // pooling sur le dernier jeton, sortie `sentence_embedding`
     query: 'Instruct: Given a gift request describing a person, retrieve the stores that best match it\nQuery: ',
     passage: '',          // les documents n'ont pas d'instruction
@@ -152,4 +168,4 @@ export const releaseLabel = (m) => { if (!m.released) return ''; const [y, mo] =
 export const releaseYear = (m) => (m.released ? m.released.slice(0, 4) : '');
 
 export const MODEL_BY_ID = Object.fromEntries(MODELS.map((m) => [m.id, m]));
-export const DEFAULT_MODEL = 'e5-small';
+export const DEFAULT_MODEL = 'minilm-multi';
